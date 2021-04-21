@@ -12,9 +12,8 @@ import pandas as pd
 home_css = ['css/home.css']
 visual_css = ['css/visual.css']
 tutorial_css = ['css/tutorial.css']
-
-# TODO Figure out why image is not showing up
-logo = 'images/Emissions Planner Logo.png'
+logo = '/localhost/images/Emissions Planner Logo.jpg'
+# TODO Figure out why image is not showing up, it might be a bug with dash?
 # TODO create choropleth map as fig
 df = pd.read_csv('datasets/API_EN.ATM.CO2E.KT_DS2_en_csv_v2_2163797.csv')
 
@@ -47,9 +46,9 @@ app = dash.Dash(__name__, external_stylesheets=home_css)
 """
     defines the html layout for the home page
 """
-def home_layout(logos,figures):
+def home_layout(logos, figures):
     return html.Div(children=[
-        html.Span(id='banner', children=[html.Img(src=logos), html.H1('Home')]),
+        html.Span(id='banner', children=[html.Img(id='aLogo', src=app.get_asset_url(logos)), html.H1('Home')]),
         html.Div(id='body', children=[html.Div(id='home_left', children=[html.P("insert product statment here")]),
                                       html.Div(id='home_right', children=[
                                                 html.H2('Select a country from map'),
@@ -61,12 +60,12 @@ def home_layout(logos,figures):
 
 
 # TODO visualization html code
-def visualization_layout(logos, figures):
+def visualization_layout(figures):
     pass
 
 
 # TODO tutorial html code
-def tutorial_layout(logos, figures):
+def tutorial_layout(figures):
     pass
 
 
@@ -75,3 +74,4 @@ app.layout = home_layout(logo, fig)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
