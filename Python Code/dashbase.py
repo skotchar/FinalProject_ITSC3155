@@ -48,7 +48,7 @@ app = dash.Dash(__name__, external_stylesheets=home_css)
 """
 def home_layout(logos, figures):
     return html.Div(children=[
-        html.Span(id='banner', children=[html.Img(id='aLogo', src=app.get_asset_url(logos)), html.H1('Home')]),
+        html.Span(id='banner', children=[html.Img(id='aLogo', src=logos)]),
         html.Div(id='body', children=[html.Div(id='home_left', children=[html.P("insert product statment here")]),
                                       html.Div(id='home_right', children=[
                                                 html.H2('Select a country from map'),
