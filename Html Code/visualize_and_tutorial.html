@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Emissions Planner Visualize</title>
+    </head>
+    <body>
+        <div id="visualize_body">
+            <div id='banner'>
+                <img src='images/Emissions Planner Logo.png'>
+                <h1>Visualization Page</h1>
+                <button id="help_button">
+                    <img id="help_icon" src="images/Help Icon.png">
+                </button>
+                <button id="back_button">Back</button>
+		    </div>
+            <div id='visualize_top_left'>
+                <div id="visual_graph_back"></div>
+                    <div id='visual_graph'>
+                    </div>
+                <div id='visualize_bottom_left'>
+                    <p>insert figure description here</p>
+                </div>
+            </div>
+            <div id='visualize_right'>
+                <button id="make_a_plan_button">Make a Plan</button>
+                <button id="top_20_button">Emissions for Top 20 Countries</button>
+                <button id="emissions_over_time_button">Emissions Over Time for Selected Country</button>
+                <select id="country_select_1">
+                    <option value="">Select a Country</option>
+                </select>
+                <button id="compare_2_countries_button">Emissions for Top 20 Countries</button>
+                <select id="country_select_2a">
+                    <option value="">Select a Country #1</option>
+                </select>
+                <select id="country_select_2b">
+                    <option value="">Select a Country #2</option>
+                </select>
+            </div>
+        </div>
+        <div id="tutorial_body" aria-hidden="true">
+            <button id="stop_tutorial" value="0">Quit</button>
+            <div id="tutorial_back_panel_left">
+                <button id="previous_button_left">Previous</button>
+                <progress id="progress_bar_left" value="1" max="10" >1/10</progress>
+                <button id="next_button_left">Next</button>
+                <div id="tutorial_arrow_pane_right">
+                    <img id="make_a_plan_arrow" src="images/Arrow Left.png">
+                    <img id="top_20_arrow" src="images/Arrow Left.png">
+                    <img id="emissions_over_time_arrow" src="images/Arrow Left.png">
+                    <img id="compare_2_countries_arrow" src="images/Arrow Left.png">
+                    <img id="back_button_arrow" src="images/Arrow Up.png">
+                    <img id="help_message_arrow" src="images/Arrow Up.png">
+                </div>
+            </div>
+            <div id="tutorial_back_panel_right">
+                <button id="previous_button_right">Previous</button>
+                <progress id="progress_bar_right" value="1" max="10" >1/10</progress>
+                <button id="next_button_right">Next</button>
+                <div id="tutorial_arrow_pane_left">
+                    <img id="figure_arrow" src="images/Arrow Right.png">
+                    <img id="fig_description_arrow" src="images/Arrow Right.png">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
