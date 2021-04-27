@@ -1,26 +1,46 @@
 @charset "ISO-8859-1";
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
 #banner{
-  width: 2048px;
+  padding: 0px;
+  margin: 0px;
   height: 132px;
   background-color: #99eeff;
   overflow: visible;
 }
 
-#bannerText{
-  width: 952px;
-  height: 92px;
-  overflow: hidden;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-word;
+#banner_text{
+  right: 25%;
+  left: 25%;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  overflow: visible;
   font-weight: 700;
   font-family: "Inter-Bold", "Inter", sans-serif;
   color: #545454;
   font-size: 64px;
-  letter-spacing: 0px;
-  line-height: 1;
   text-align: center;
+}
+
+#help_button {
+    width: 88px;
+    height: 103px;
+    position: absolute;
+    right: 0%;
+    left:90%;
+}
+
+#back_button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0%;
+    left: 95%;
 }
 
 #body{
