@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/emissions.css">
+        <link rel="stylesheet" href="css/Emissions.css">
         <title>Emissions Planner Visualize</title>
     </head>
     <body>
@@ -16,9 +16,11 @@
         </div>
         <div id="visualize_body">
             <div id='visualize_top_left'>
-                <div id="visual_graph_back"></div>
+                <div id="visual_graph_back">
                     <div id='visual_graph'>
+
                     </div>
+                </div>
                 <div id='visualize_bottom_left'>
                     <p>insert figure description here</p>
                 </div>
@@ -39,12 +41,16 @@
                 </select>
             </div>
         </div>
-        <div id="tutorial_body" aria-hidden="true">
-            <button id="stop_tutorial" value="0">Quit</button>
+        <div id="tutorial_body">
             <div id="tutorial_back_panel_left">
-                <button id="previous_button_left">Previous</button>
-                <progress id="progress_bar_left" value="1" max="10" >1/10</progress>
-                <button id="next_button_left">Next</button>
+                <div id="info_panel_left">
+                    <p>insert message here</p>
+                    <div id="button_pane_left">
+                        <button id="previous_button_left">Previous</button>
+                        <progress id="progress_bar_left" value="1" max="10" >1/10</progress>
+                        <button id="next_button_left">Next</button>
+                    </div>
+                </div>
                 <div id="tutorial_arrow_pane_right">
                     <img id="make_a_plan_arrow" src="images/Arrow Right.png">
                     <img id="top_20_arrow" src="images/Arrow Right.png">
@@ -55,9 +61,14 @@
                 </div>
             </div>
             <div id="tutorial_back_panel_right">
-                <button id="previous_button_right">Previous</button>
-                <progress id="progress_bar_right" value="1" max="10" >1/10</progress>
-                <button id="next_button_right">Next</button>
+                <div id="info_panel_right">
+                    <p>insert message here</p>
+                    <div id ="button_pane_right">
+                        <button id="previous_button_right">Previous</button>
+                        <progress id="progress_bar_right" value="1" max="10" >1/10</progress>
+                        <button id="next_button_right">Next</button>
+                    </div>
+                </div>
                 <div id="tutorial_arrow_pane_left">
                     <img id="figure_arrow" src="images/Arrow Left.png">
                     <img id="fig_description_arrow" src="images/Arrow Left.png">
