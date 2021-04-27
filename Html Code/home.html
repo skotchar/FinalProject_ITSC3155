@@ -4,38 +4,52 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href='css/Emissions.css'>
 		<script src='/scripts/home.js'></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="refresh" content="30">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+		</style>
 	</head>
-	<body>
+	<body> 
 		<div id='banner'>
 			<div class = "frame">
 				<img src='images/Emissions Planner Logo.png'>
 				<h1 id="banner_text">Home</h1>
 			</div>
 		</div>
-		<div id='body'>
-			<div id='column' style="background-color:#aaa;">
-			    <h1>Column 1</h1>
-			    <p>insert product vision here</p>
-		    </div>
-		    
-			  <div class="column" style="background-color:#bbb;">
-			    <h1>Select a country from map</h1>
-			    <p>Choropleth</p>
+		
+		<div class="body">
+			  <div class="left_column" style="background-color:#44ccff;">
+			    <h1 id="title">Product Vision</h1>
+			    <p id = "Product_text">
+			    	For energy companies and legislators who need to find out the level of carbon emissions
+			     	in a particular country, Emission Planner is a website that will provide carbon emission data
+			      	from previous years on a country of interest. Unlike the World Bank, our project will offer more
+			      	features in order to interpret the data such as predicting emission rates in future years, comparing
+			        emission levels between countries, and providing information about a country’s economy and population.
+			    </p>
+			  </div>
+			  <div class="right_column" style="background-color:#44ccff;">
+			    <h1 id= "title">Choropleth</h1>
 			  </div>
 		</div>
 		
-		<br>
-		<div id='banner'>
-			<div class = "frame">
-				<button id='home_tutorial_button'>Start Tutorial</button>
-			</div>
-		</div>
+		<div id='banner'></div>
 			
 	</body>
 </html>
 
 
-<!-- 
+<!-- 	
+
+		<div id='banner'>
+			<div class = "frame">
+				<button id='home_tutorial_button'>Start Tutorial</button>
+			</div>
+		</div>
+
 			<div id='home_top_left'>
 				<p>insert product vision here</p>
 			</div>

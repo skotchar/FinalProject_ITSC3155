@@ -27,6 +27,20 @@ body {
   text-align: center;
 }
 
+#title{
+	color:#000000;
+	text-align: center;
+	font-size: 36px;
+	vertical-align: middle;
+}
+
+#Product_text{
+	color:#000000;
+	text-align: center;
+	font-size: 18px;
+	vertical-align: middle;
+}
+
 #help_button {
     width: 88px;
     height: 103px;
@@ -47,21 +61,36 @@ body {
 	display: flex;
 }
 
-/*#Product_Statement*/
- #Column {
+
+/* Create two equal columns that floats next to each other */
+.left_column {
+  float: left;
+  width: 35%;
   padding: 10px;
-  height: 1004px;
-  flex: 50%;
+  height: 400px;  /*Should be removed. Only for demonstration */
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
-/*
-#Choropleth_Map{
-  width: 1053px;
-  height: 840px;
-  background-color: #33aaff;
-  overflow: visible;
+.right_column {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 700px;  /*Should be removed. Only for demonstration */
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 5px;
+  margin-bottom: 10px;
 }
-*/
+
+/* Clear floats after the columns */
+.body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 #Graph{
   width: 1376px;
