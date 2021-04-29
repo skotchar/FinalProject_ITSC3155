@@ -1,0 +1,1234 @@
+{
+"values": [
+ {
+   "name": "Antigua and Barbuda",
+   "code": "ATG",
+   "emmision": 557.384
+ },
+ {
+   "name": "Algeria",
+   "code": "DZA",
+   "emmision": 150005.969
+ },
+ {
+   "name": "Azerbaijan",
+   "code": "AZE",
+   "emmision": 37619.753
+ },
+ {
+   "name": "Albania",
+   "code": "ALB",
+   "emmision": 4536.079
+ },
+ {
+   "name": "Armenia",
+   "code": "ARM",
+   "emmision": 5155.802
+ },
+ {
+   "name": "Angola",
+   "code": "AGO",
+   "emmision": 34693.487
+ },
+ {
+   "name": "American Samoa",
+   "code": "ASM",
+   "emmision": 0
+ },
+ {
+   "name": "Argentina",
+   "code": "ARG",
+   "emmision": 201347.636
+ },
+ {
+   "name": "Australia",
+   "code": "AUS",
+   "emmision": 375907.837
+ },
+ {
+   "name": "Bahrain",
+   "code": "BHR",
+   "emmision": 31693.881
+ },
+ {
+   "name": "Barbados",
+   "code": "BRB",
+   "emmision": 1276.116
+ },
+ {
+   "name": "Bermuda",
+   "code": "BMU",
+   "emmision": 612.389
+ },
+ {
+   "name": "Bahamas",
+   "code": "BHS",
+   "emmision": 1785.829
+ },
+ {
+   "name": "Bangladesh",
+   "code": "BGD",
+   "emmision": 84245.658
+ },
+ {
+   "name": "Belize",
+   "code": "BLZ",
+   "emmision": 568.385
+ },
+ {
+   "name": "Bosnia and Herzegovina",
+   "code": "BIH",
+   "emmision": 21847.986
+ },
+ {
+   "name": "Bolivia",
+   "code": "BOL",
+   "emmision": 21605.964
+ },
+ {
+   "name": "Burma",
+   "code": "MMR",
+   "emmision": 25280.298
+ },
+ {
+   "name": "Benin",
+   "code": "BEN",
+   "emmision": 6475.922
+ },
+ {
+   "name": "Solomon Islands",
+   "code": "SLB",
+   "emmision": 168.682
+ },
+ {
+   "name": "Brazil",
+   "code": "BRA",
+   "emmision": 462298.69
+ },
+ {
+   "name": "Bulgaria",
+   "code": "BGR",
+   "emmision": 41708.458
+ },
+ {
+   "name": "Brunei Darussalam",
+   "code": "BRN",
+   "emmision": 7664.03
+ },
+ {
+   "name": "Canada",
+   "code": "CAN",
+   "emmision": 544894.198
+ },
+ {
+   "name": "Cambodia",
+   "code": "KHM",
+   "emmision": 9919.235
+ },
+ {
+   "name": "Sri Lanka",
+   "code": "LKA",
+   "emmision": 23362.457
+ },
+ {
+   "name": "Congo",
+   "code": "COG",
+   "emmision": 3281.965
+ },
+ {
+   "name": "Democratic Republic of the Congo",
+   "code": "COD",
+   "emmision": 2020.517
+ },
+ {
+   "name": "Burundi",
+   "code": "BDI",
+   "emmision": 495.045
+ },
+ {
+   "name": "China",
+   "code": "CHN",
+   "emmision": 9893037.952
+ },
+ {
+   "name": "Afghanistan",
+   "code": "AFG",
+   "emmision": 8672.455
+ },
+ {
+   "name": "Bhutan",
+   "code": "BTN",
+   "emmision": 1261.448
+ },
+ {
+   "name": "Chile",
+   "code": "CHL",
+   "emmision": 85822.468
+ },
+ {
+   "name": "Cayman Islands",
+   "code": "CYM",
+   "emmision": 546.383
+ },
+ {
+   "name": "Cameroon",
+   "code": "CMR",
+   "emmision": 8291.087
+ },
+ {
+   "name": "Chad",
+   "code": "TCD",
+   "emmision": 1015.759
+ },
+ {
+   "name": "Comoros",
+   "code": "COM",
+   "emmision": 201.685
+ },
+ {
+   "name": "Colombia",
+   "code": "COL",
+   "emmision": 97813.558
+ },
+ {
+   "name": "Costa Rica",
+   "code": "CRI",
+   "emmision": 8023.396
+ },
+ {
+   "name": "Central African Republic",
+   "code": "CAF",
+   "emmision": 297.027
+ },
+ {
+   "name": "Cuba",
+   "code": "CUB",
+   "emmision": 28283.571
+ },
+ {
+   "name": "Cape Verde",
+   "code": "CPV",
+   "emmision": 542.716
+ },
+ {
+   "name": "Cook Islands",
+   "code": "COK",
+   "emmision": 0
+ },
+ {
+   "name": "Cyprus",
+   "code": "CYP",
+   "emmision": 6626.269
+ },
+ {
+   "name": "Denmark",
+   "code": "DNK",
+   "emmision": 31785.556
+ },
+ {
+   "name": "Djibouti",
+   "code": "DJI",
+   "emmision": 619.723
+ },
+ {
+   "name": "Dominica",
+   "code": "DMA",
+   "emmision": 179.683
+ },
+ {
+   "name": "Dominican Republic",
+   "code": "DOM",
+   "emmision": 25258.296
+ },
+ {
+   "name": "Ecuador",
+   "code": "ECU",
+   "emmision": 41154.741
+ },
+ {
+   "name": "Egypt",
+   "code": "EGY",
+   "emmision": 238560.352
+ },
+ {
+   "name": "Ireland",
+   "code": "IRL",
+   "emmision": 37711.428
+ },
+ {
+   "name": "Equatorial Guinea",
+   "code": "GNQ",
+   "emmision": 5654.514
+ },
+ {
+   "name": "Estonia",
+   "code": "EST",
+   "emmision": 16589.508
+ },
+ {
+   "name": "Eritrea",
+   "code": "ERI",
+   "emmision": 711.398
+ },
+ {
+   "name": "El Salvador",
+   "code": "SLV",
+   "emmision": 7168.985
+ },
+ {
+   "name": "Ethiopia",
+   "code": "ETH",
+   "emmision": 14869.685
+ },
+ {
+   "name": "Austria",
+   "code": "AUT",
+   "emmision": 61447.919
+ },
+ {
+   "name": "Czech Republic",
+   "code": "CZE",
+   "emmision": 102217.625
+ },
+ {
+   "name": "French Guiana",
+   "code": "GUF",
+   "emmision": 0
+ },
+ {
+   "name": "Finland",
+   "code": "FIN",
+   "emmision": 45870.503
+ },
+ {
+   "name": "Fiji",
+   "code": "FJI",
+   "emmision": 2046.186
+ },
+ {
+   "name": "Falkland Islands (Malvinas)",
+   "code": "FLK",
+   "emmision": 0
+ },
+ {
+   "name": "Micronesia, Federated States of",
+   "code": "FSM",
+   "emmision": 143.013
+ },
+ {
+   "name": "French Polynesia",
+   "code": "PYF",
+   "emmision": 770.07
+ },
+ {
+   "name": "France",
+   "code": "FRA",
+   "emmision": 303275.568
+ },
+ {
+   "name": "Gambia",
+   "code": "GMB",
+   "emmision": 531.715
+ },
+ {
+   "name": "Gabon",
+   "code": "GAB",
+   "emmision": 5320.817
+ },
+ {
+   "name": "Georgia",
+   "code": "GEO",
+   "emmision": 10128.254
+ },
+ {
+   "name": "Ghana",
+   "code": "GHA",
+   "emmision": 16670.182
+ },
+ {
+   "name": "Grenada",
+   "code": "GRD",
+   "emmision": 267.691
+ },
+ {
+   "name": "Greenland",
+   "code": "GRL",
+   "emmision": 509.713
+ },
+ {
+   "name": "Germany",
+   "code": "DEU",
+   "emmision": 727972.84
+ },
+ {
+   "name": "Guam",
+   "code": "GUM",
+   "emmision": 0
+ },
+ {
+   "name": "Greece",
+   "code": "GRC",
+   "emmision": 62434.342
+ },
+ {
+   "name": "Guatemala",
+   "code": "GTM",
+   "emmision": 16776.525
+ },
+ {
+   "name": "Guinea",
+   "code": "GIN",
+   "emmision": 2995.939
+ },
+ {
+   "name": "Guyana",
+   "code": "GUY",
+   "emmision": 2383.55
+ },
+ {
+   "name": "Haiti",
+   "code": "HTI",
+   "emmision": 2977.604
+ },
+ {
+   "name": "Honduras",
+   "code": "HND",
+   "emmision": 9812.892
+ },
+ {
+   "name": "Croatia",
+   "code": "HRV",
+   "emmision": 17487.923
+ },
+ {
+   "name": "Hungary",
+   "code": "HUN",
+   "emmision": 45536.806
+ },
+ {
+   "name": "Iceland",
+   "code": "ISL",
+   "emmision": 2064.521
+ },
+ {
+   "name": "India",
+   "code": "IND",
+   "emmision": 563324.54
+ },
+ {
+   "name": "Iran (Islamic Republic of)",
+   "code": "IRN",
+   "emmision": 661710.15
+ },
+ {
+   "name": "Israel",
+   "code": "ISR",
+   "emmision": 65166.257
+ },
+ {
+   "name": "Italy",
+   "code": "ITA",
+   "emmision": 320411.495
+ },
+ {
+   "name": "Cote d'Ivoire",
+   "code": "CIV",
+   "emmision": 9673.546
+ },
+ {
+   "name": "Iraq",
+   "code": "IRQ",
+   "emmision": 190060.61
+ },
+ {
+   "name": "Japan",
+   "code": "JPN",
+   "emmision": 1135886.253
+ },
+ {
+   "name": "Jamaica",
+   "code": "JAM",
+   "emmision": 8225.081
+ },
+ {
+   "name": "Jordan",
+   "code": "JOR",
+   "emmision": 25107.949
+ },
+ {
+   "name": "Kenya",
+   "code": "KEN",
+   "emmision": 17909.628
+ },
+ {
+   "name": "Kyrgyzstan",
+   "code": "KGZ",
+   "emmision": 9787.223
+ },
+ {
+   "name": "Korea, Democratic People's Republic of",
+   "code": "PRK",
+   "emmision": 28283.571
+ },
+ {
+   "name": "Kiribati",
+   "code": "KIR",
+   "emmision": 66.006
+ },
+ {
+   "name": "Korea, Republic of",
+   "code": "KOR",
+   "emmision": 620302.386
+ },
+ {
+   "name": "Kuwait",
+   "code": "KWT",
+   "emmision": 98733.975
+ },
+ {
+   "name": "Kazakhstan",
+   "code": "KAZ",
+   "emmision": 247207.138
+ },
+ {
+   "name": "Lao People's Democratic Republic",
+   "code": "LAO",
+   "emmision": 17762.948
+ },
+ {
+   "name": "Lebanon",
+   "code": "LBN",
+   "emmision": 24796.254
+ },
+ {
+   "name": "Latvia",
+   "code": "LVA",
+   "emmision": 7003.97
+ },
+ {
+   "name": "Belarus",
+   "code": "BLR",
+   "emmision": 58279.631
+ },
+ {
+   "name": "Lithuania",
+   "code": "LTU",
+   "emmision": 12962.845
+ },
+ {
+   "name": "Liberia",
+   "code": "LBR",
+   "emmision": 1386.126
+ },
+ {
+   "name": "Slovakia",
+   "code": "SVK",
+   "emmision": 32423.614
+ },
+ {
+   "name": "Liechtenstein",
+   "code": "LIE",
+   "emmision": 51.338
+ },
+ {
+   "name": "Libyan Arab Jamahiriya",
+   "code": "LBY",
+   "emmision": 50564.263
+ },
+ {
+   "name": "Madagascar",
+   "code": "MDG",
+   "emmision": 3905.355
+ },
+ {
+   "name": "Martinique",
+   "code": "MTQ",
+   "emmision": 0
+ },
+ {
+   "name": "Mongolia",
+   "code": "MNG",
+   "emmision": 25368.306
+ },
+ {
+   "name": "Montserrat",
+   "code": "MSR",
+   "emmision": 0
+ },
+ {
+   "name": "The former Yugoslav Republic of Macedonia",
+   "code": "MKD",
+   "emmision": 7051.641
+ },
+ {
+   "name": "Mali",
+   "code": "MLI",
+   "emmision": 3179.289
+ },
+ {
+   "name": "Morocco",
+   "code": "MAR",
+   "emmision": 61275.57
+ },
+ {
+   "name": "Mauritius",
+   "code": "MUS",
+   "emmision": 4349.062
+ },
+ {
+   "name": "Mauritania",
+   "code": "MRT",
+   "emmision": 2739.249
+ },
+ {
+   "name": "Malta",
+   "code": "MLT",
+   "emmision": 1342.122
+ },
+ {
+   "name": "Oman",
+   "code": "OMN",
+   "emmision": 63457.435
+ },
+ {
+   "name": "Maldives",
+   "code": "MDV",
+   "emmision": 1444.798
+ },
+ {
+   "name": "Mexico",
+   "code": "MEX",
+   "emmision": 486405.548
+ },
+ {
+   "name": "Malaysia",
+   "code": "MYS",
+   "emmision": 248288.903
+ },
+ {
+   "name": "Mozambique",
+   "code": "MOZ",
+   "emmision": 7942.722
+ },
+ {
+   "name": "Malawi",
+   "code": "MWI",
+   "emmision": 1298.118
+ },
+ {
+   "name": "New Caledonia",
+   "code": "NCL",
+   "emmision": 5328.151
+ },
+ {
+   "name": "Niue",
+   "code": "NIU",
+   "emmision": 0
+ },
+ {
+   "name": "Niger",
+   "code": "NER",
+   "emmision": 2016.85
+ },
+ {
+   "name": "Aruba",
+   "code": "ABW",
+   "emmision": 883.747
+ },
+ {
+   "name": "Anguilla",
+   "code": "AIA",
+   "emmision": 0
+ },
+ {
+   "name": "Belgium",
+   "code": "BEL",
+   "emmision": 96889.474
+ },
+ {
+   "name": "Hong Kong",
+   "code": "HKG",
+   "emmision": 43644.634
+ },
+ {
+   "name": "Northern Mariana Islands",
+   "code": "MNP",
+   "emmision": 0
+ },
+ {
+   "name": "Faroe Islands",
+   "code": "FRO",
+   "emmision": 630.724
+ },
+ {
+   "name": "Andorra",
+   "code": "AND",
+   "emmision": 469.376
+ },
+ {
+   "name": "Gibraltar",
+   "code": "GIB",
+   "emmision": 634.391
+ },
+ {
+   "name": "Isle of Man",
+   "code": "IMN",
+   "emmision": 0
+ },
+ {
+   "name": "Luxembourg",
+   "code": "LUX",
+   "emmision": 8987.817
+ },
+ {
+   "name": "Macau",
+   "code": "MAC",
+   "emmision": 2068.188
+ },
+ {
+   "name": "Monaco",
+   "code": "MCO",
+   "emmision": 0
+ },
+ {
+   "name": "Palestine",
+   "code": "PSE",
+   "emmision": 3234.294
+ },
+ {
+   "name": "Montenegro",
+   "code": "MNE",
+   "emmision": 2016.85
+ },
+ {
+   "name": "Mayotte",
+   "code": "MYT",
+   "emmision": 0
+ },
+ {
+   "name": "Åland Islands",
+   "code": "ALA",
+   "emmision": 0
+ },
+ {
+   "name": "Norfolk Island",
+   "code": "NFK",
+   "emmision": 0
+ },
+ {
+   "name": "Cocos (Keeling) Islands",
+   "code": "CCK",
+   "emmision": 0
+ },
+ {
+   "name": "Antarctica",
+   "code": "ATA",
+   "emmision": 0
+ },
+ {
+   "name": "Bouvet Island",
+   "code": "BVT",
+   "emmision": 0
+ },
+ {
+   "name": "French Southern and Antarctic Lands",
+   "code": "ATF",
+   "emmision": 0
+ },
+ {
+   "name": "Heard Island and McDonald Islands",
+   "code": "HMD",
+   "emmision": 0
+ },
+ {
+   "name": "British Indian Ocean Territory",
+   "code": "IOT",
+   "emmision": 0
+ },
+ {
+   "name": "Christmas Island",
+   "code": "CXR",
+   "emmision": 0
+ },
+ {
+   "name": "United States Minor Outlying Islands",
+   "code": "UMI",
+   "emmision": 0
+ },
+ {
+   "name": "Vanuatu",
+   "code": "VUT",
+   "emmision": 146.68
+ },
+ {
+   "name": "Nigeria",
+   "code": "NGA",
+   "emmision": 120369.275
+ },
+ {
+   "name": "Netherlands",
+   "code": "NLD",
+   "emmision": 170779.524
+ },
+ {
+   "name": "Norway",
+   "code": "NOR",
+   "emmision": 41022.729
+ },
+ {
+   "name": "Nepal",
+   "code": "NPL",
+   "emmision": 9105.161
+ },
+ {
+   "name": "Nauru",
+   "code": "NRU",
+   "emmision": 47.671
+ },
+ {
+   "name": "Suriname",
+   "code": "SUR",
+   "emmision": 1738.158
+ },
+ {
+   "name": "Nicaragua",
+   "code": "NIC",
+   "emmision": 5592.175
+ },
+ {
+   "name": "New Zealand",
+   "code": "NZL",
+   "emmision": 34381.792
+ },
+ {
+   "name": "Paraguay",
+   "code": "PRY",
+   "emmision": 7407.34
+ },
+ {
+   "name": "Peru",
+   "code": "PER",
+   "emmision": 57414.219
+ },
+ {
+   "name": "Pakistan",
+   "code": "PAK",
+   "emmision": 201149.618
+ },
+ {
+   "name": "Poland",
+   "code": "POL",
+   "emmision": 299036.516
+ },
+ {
+   "name": "Panama",
+   "code": "PAN",
+   "emmision": 10714.974
+ },
+ {
+   "name": "Portugal",
+   "code": "PRT",
+   "emmision": 48741.764
+ },
+ {
+   "name": "Papua New Guinea",
+   "code": "PNG",
+   "emmision": 7535.685
+ },
+ {
+   "name": "Guinea-Bissau",
+   "code": "GNB",
+   "emmision": 293.36
+ },
+ {
+   "name": "Qatar",
+   "code": "QAT",
+   "emmision": 103259.053
+ },
+ {
+   "name": "Reunion",
+   "code": "REU",
+   "emmision": 0
+ },
+ {
+   "name": "Romania",
+   "code": "ROU",
+   "emmision": 69258.629
+ },
+ {
+   "name": "Republic of Moldova",
+   "code": "MDA",
+   "emmision": 5115.465
+ },
+ {
+   "name": "Philippines",
+   "code": "PHL",
+   "emmision": 122287.116
+ },
+ {
+   "name": "Puerto Rico",
+   "code": "PRI",
+   "emmision": 0
+ },
+ {
+   "name": "Russia",
+   "code": "RUS",
+   "emmision": 1732026.776
+ },
+ {
+   "name": "Rwanda",
+   "code": "RWA",
+   "emmision": 1114.768
+ },
+ {
+   "name": "Saudi Arabia",
+   "code": "SAU",
+   "emmision": 563449.218
+ },
+ {
+   "name": "Saint Kitts and Nevis",
+   "code": "KNA",
+   "emmision": 238.355
+ },
+ {
+   "name": "Seychelles",
+   "code": "SYC",
+   "emmision": 605.055
+ },
+ {
+   "name": "South Africa",
+   "code": "ZAF",
+   "emmision": 476643.994
+ },
+ {
+   "name": "Lesotho",
+   "code": "LSO",
+   "emmision": 2511.895
+ },
+ {
+   "name": "Botswana",
+   "code": "BWA",
+   "emmision": 6340.243
+ },
+ {
+   "name": "Senegal",
+   "code": "SEN",
+   "emmision": 10901.991
+ },
+ {
+   "name": "Slovenia",
+   "code": "SVN",
+   "emmision": 12632.815
+ },
+ {
+   "name": "Sierra Leone",
+   "code": "SLE",
+   "emmision": 1092.766
+ },
+ {
+   "name": "Singapore",
+   "code": "SGP",
+   "emmision": 37535.412
+ },
+ {
+   "name": "Somalia",
+   "code": "SOM",
+   "emmision": 645.392
+ },
+ {
+   "name": "Spain",
+   "code": "ESP",
+   "emmision": 244002.18
+ },
+ {
+   "name": "Saint Lucia",
+   "code": "LCA",
+   "emmision": 414.371
+ },
+ {
+   "name": "Sudan",
+   "code": "SDN",
+   "emmision": 19999.818
+ },
+ {
+   "name": "Sweden",
+   "code": "SWE",
+   "emmision": 43252.265
+ },
+ {
+   "name": "Syrian Arab Republic",
+   "code": "SYR",
+   "emmision": 28829.954
+ },
+ {
+   "name": "Switzerland",
+   "code": "CHE",
+   "emmision": 34477.134
+ },
+ {
+   "name": "Trinidad and Tobago",
+   "code": "TTO",
+   "emmision": 43868.321
+ },
+ {
+   "name": "Thailand",
+   "code": "THA",
+   "emmision": 283763.461
+ },
+ {
+   "name": "Tajikistan",
+   "code": "TJK",
+   "emmision": 5309.816
+ },
+ {
+   "name": "Tokelau",
+   "code": "TKL",
+   "emmision": 0
+ },
+ {
+   "name": "Tonga",
+   "code": "TON",
+   "emmision": 128.345
+ },
+ {
+   "name": "Togo",
+   "code": "TGO",
+   "emmision": 2999.606
+ },
+ {
+   "name": "Sao Tome and Principe",
+   "code": "STP",
+   "emmision": 121.011
+ },
+ {
+   "name": "Tunisia",
+   "code": "TUN",
+   "emmision": 29937.388
+ },
+ {
+   "name": "Turkey",
+   "code": "TUR",
+   "emmision": 372724.881
+ },
+ {
+   "name": "Tuvalu",
+   "code": "TUV",
+   "emmision": 11.001
+ },
+ {
+   "name": "Turkmenistan",
+   "code": "TKM",
+   "emmision": 70630.087
+ },
+ {
+   "name": "United Republic of Tanzania",
+   "code": "TZA",
+   "emmision": 11972.755
+ },
+ {
+   "name": "Uganda",
+   "code": "UGA",
+   "emmision": 5680.183
+ },
+ {
+   "name": "United Kingdom",
+   "code": "GBR",
+   "emmision": 379024.787
+ },
+ {
+   "name": "Ukraine",
+   "code": "UKR",
+   "emmision": 202249.718
+ },
+ {
+   "name": "United States",
+   "code": "USA",
+   "emmision": 5006302.077
+ },
+ {
+   "name": "Burkina Faso",
+   "code": "BFA",
+   "emmision": 3417.644
+ },
+ {
+   "name": "Uruguay",
+   "code": "URY",
+   "emmision": 6765.615
+ },
+ {
+   "name": "Uzbekistan",
+   "code": "UZB",
+   "emmision": 91810.679
+ },
+ {
+   "name": "Saint Vincent and the Grenadines",
+   "code": "VCT",
+   "emmision": 220.02
+ },
+ {
+   "name": "Venezuela",
+   "code": "VEN",
+   "emmision": 164175.257
+ },
+ {
+   "name": "British Virgin Islands",
+   "code": "VGB",
+   "emmision": 212.686
+ },
+ {
+   "name": "Viet Nam",
+   "code": "VNM",
+   "emmision": 192667.847
+ },
+ {
+   "name": "United States Virgin Islands",
+   "code": "VIR",
+   "emmision": 0
+ },
+ {
+   "name": "Namibia",
+   "code": "NAM",
+   "emmision": 4228.051
+ },
+ {
+   "name": "Wallis and Futuna Islands",
+   "code": "WLF",
+   "emmision": 0
+ },
+ {
+   "name": "Samoa",
+   "code": "WSM",
+   "emmision": 245.689
+ },
+ {
+   "name": "Swaziland",
+   "code": "SWZ",
+   "emmision": 1155.105
+ },
+ {
+   "name": "Yemen",
+   "code": "YEM",
+   "emmision": 10608.631
+ },
+ {
+   "name": "Zambia",
+   "code": "ZMB",
+   "emmision": 5141.134
+ },
+ {
+   "name": "Zimbabwe",
+   "code": "ZWE",
+   "emmision": 10982.665
+ },
+ {
+   "name": "Indonesia",
+   "code": "IDN",
+   "emmision": 563324.54
+ },
+ {
+   "name": "Guadeloupe",
+   "code": "GLP",
+   "emmision": 0
+ },
+ {
+   "name": "Netherlands Antilles",
+   "code": "ANT",
+   "emmision": 0
+ },
+ {
+   "name": "United Arab Emirates",
+   "code": "ARE",
+   "emmision": 206323.755
+ },
+ {
+   "name": "Timor-Leste",
+   "code": "TLS",
+   "emmision": 495.045
+ },
+ {
+   "name": "Pitcairn Islands",
+   "code": "PCN",
+   "emmision": 0
+ },
+ {
+   "name": "Palau",
+   "code": "PLW",
+   "emmision": 223.687
+ },
+ {
+   "name": "Marshall Islands",
+   "code": "MHL",
+   "emmision": 143.013
+ },
+ {
+   "name": "Saint Pierre and Miquelon",
+   "code": "SPM",
+   "emmision": 0
+ },
+ {
+   "name": "Saint Helena",
+   "code": "SHN",
+   "emmision": 0
+ },
+ {
+   "name": "San Marino",
+   "code": "SMR",
+   "emmision": 0
+ },
+ {
+   "name": "Turks and Caicos Islands",
+   "code": "TCA",
+   "emmision": 216.353
+ },
+ {
+   "name": "Western Sahara",
+   "code": "ESH",
+   "emmision": 0
+ },
+ {
+   "name": "Serbia",
+   "code": "SRB",
+   "emmision": 45221.444
+ },
+ {
+   "name": "Holy See (Vatican City)",
+   "code": "VAT",
+   "emmision": 0
+ },
+ {
+   "name": "Svalbard",
+   "code": "SJM",
+   "emmision": 0
+ },
+ {
+   "name": "Saint Martin",
+   "code": "MAF",
+   "emmision": 0
+ },
+ {
+   "name": "Saint Barthelemy",
+   "code": "BLM",
+   "emmision": 0
+ },
+ {
+   "name": "Guernsey",
+   "code": "GGY",
+   "emmision": 0
+ },
+ {
+   "name": "Jersey",
+   "code": "JEY",
+   "emmision": 0
+ },
+ {
+   "name": "South Georgia South Sandwich Islands",
+   "code": "SGS",
+   "emmision": 0
+ },
+ {
+   "name": "Taiwan",
+   "code": "TWN",
+   "emmision": 0
+ }
+]
+}
