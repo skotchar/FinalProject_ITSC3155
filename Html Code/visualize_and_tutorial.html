@@ -41,13 +41,18 @@
                 </select>
             </div>
         </div>
+        <!--
+            help button should generate this \/\/\/\/\/\/
+        -->
         <div id="tutorial_body">
             <div id="tutorial_back_panel_left">
                 <div id="info_panel_left">
                     <p>insert message here</p>
                     <div id="button_pane_left">
                         <button id="previous_button_left">Previous</button>
-                        <progress id="progress_bar_left" value="1" max="10" >1/10</progress>
+                        <progress id="progress_bar_left" value="1" max="10" >
+                            <p id="progress_percent_left">1/9</p>
+                        </progress>
                         <button id="next_button_left">Next</button>
                     </div>
                 </div>
@@ -65,7 +70,9 @@
                     <p>insert message here</p>
                     <div id ="button_pane_right">
                         <button id="previous_button_right">Previous</button>
-                        <progress id="progress_bar_right" value="1" max="10" >1/10</progress>
+                        <progress id="progress_bar_right" value="1" max="10" >
+                            <p id="progress_percent_right"> 1/9</p>
+                        </progress>
                         <button id="next_button_right">Next</button>
                     </div>
                 </div>
@@ -74,6 +81,10 @@
                     <img id="fig_description_arrow" src="images/Arrow Left.png">
                 </div>
             </div>
+            <button id="tutorial_quit">Quit</button>
         </div>
+        <!--
+            End of tutorial html elements
+        -->
     </body>
 </html>

@@ -36,6 +36,13 @@ body {
 	vertical-align: middle;
 }
 
+#map_title{
+	color:#000000;
+	text-align: center;
+	font-size: 36px;
+	vertical-align: middle;
+}
+
 #Product_text{
 	color:#000000;
 	text-align: center;
@@ -111,7 +118,9 @@ body {
     float: left;
     z-index: -1;
 }
-
+/*
+    Visualization button panel
+*/
 #visualize_right {
     margin: 2px;
     width: 25%;
@@ -142,32 +151,47 @@ body {
     height: 111px;
     border: none;
 }
-
+/*
+    if tutorial is active disable back button
+    if we finish the tutorial or quit we re-render the page without
+    the tutorial html elements.
+    if we click the help icon we re-render the page with the
+    tutorial html elements.
+*/
+#tutorial_quit {
+    padding: 0px;
+    margin: 2px;
+    width: 88px;
+    height: 103px;
+    position: absolute;
+    font-size: 32px;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: white;
+    background-color: #ff0000;
+    top: -13.3%;
+    border: none;
+    border-radius: 8px;
+    left: 93.46%;
+    z-index: -1;
+}
 #tutorial_body {
    position: absolute;
-   display: block;
-   visible: hidden;
-   top: 0;
+   display: none;
+   top: 132px;
    width: 100%;
-   height: 1000px;
+   height: 905px;
    z-index: 0;
 }
-
-#tutorial_back_panel_left {
-   position: relative;
-   background-color: rgba(25,25,25,0.7);
-   float: left;
-   width: 100%;
-   height: 100%;
-}
-
+/*
+    Tutorial Right Area
+*/
 #tutorial_back_panel_right {
    display: none;
    background-color: rgba(25,25,25,0.7);
    position: relative;
    float: right;
-   width: 50%;
-   height: 100%;
+   width: 100%;
+   height: 905px;
 }
 
 #info_panel_right {
@@ -176,27 +200,18 @@ body {
    position: relative;
    float: right;
    width: 50%;
-   height: 50%;
+   height: 60%;
 }
 
-#info_panel_left {
-   background-color: white;
-   position: relative;
+#info_panel_right p{
    margin: 8px;
-   float: left;
-   width: 50%;
-   height: 50%;
-}
-
-#info_panel_left p{
-    margin: 8px;
    font-family: "Inter-Bold", "Inter", sans-serif;
 }
-
 #button_pane_right {
-   margin: 8px;
    position: relative;
-   top: 375px;
+   margin-left: 12px;
+   left: 12px;
+   top: 430px;
 }
 
 #button_pane_right button{
@@ -207,18 +222,93 @@ body {
    width: 75%;
 }
 
+#back_button_arrow {
+    left: 88%;
+    top: -4%;
+    position: absolute;
+}
+
+#help_message_arrow {
+    left: 94%;
+    top: -4%;
+    position: absolute;
+}
+/*
+    Left tutorial area
+*/
+#tutorial_back_panel_left {
+   display: none;
+   position: relative;
+   background-color: rgba(25,25,25,0.7);
+   float: left;
+   width: 100%;
+   height: 905px;
+}
+
+#info_panel_left {
+   background-color: white;
+   position: relative;
+   margin: 8px;
+   float: left;
+   width: 50%;
+   height: 60%;
+}
+
+#info_panel_left p{
+   margin: 8px;
+   font-family: "Inter-Bold", "Inter", sans-serif;
+}
+
 #button_pane_left {
    position: relative;
    margin-left: 12px;
-   top: 375px;
+   left: 12px;
+   top: 420px;
 }
 #button_pane_left button{
    width: 64px;
    height: 64px;
 }
+#figure_arrow {
+    left: 25%;
+    top: 85%;
+    position: absolute;
+}
+
+#fig_description_arrow {
+    left: 25%;
+    top: 45%;
+    position: absolute;
+}
+
+#make_a_plan_arrow {
+    left: 73%;
+    top: 4%;
+    position: absolute;
+}
+
+#top_20_arrow {
+    left: 73%;
+    top: 18%;
+    position: absolute;
+}
+
+#emissions_over_time_arrow {
+    left: 73%;
+    top: 32%;
+    position: absolute;
+}
+
+#compare_2_countries_arrow {
+    left: 73%;
+    top: 60%;
+    position: absolute;
+}
+
 #button_pane_left progress{
    width: 75%;
 }
+
 #body{
 	display: flex;
 }
