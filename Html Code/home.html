@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href='css/Emissions.css'>
-		<script src='/scripts/home.js'></script>
+		<script src='/scripts/emissions.js'></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="refresh" content="30">
 		<style>
@@ -17,9 +17,8 @@
 			<img src='images/Emissions Planner Logo.png'>
 			<h1 id="banner_text">Home</h1>
 		</div>
-		
-		<div class="body">
-			  <div class="left_column" style="background-color:#44ccff;">
+		<div class="body" onload="setupSelectorsOptions()">
+			  <div id="left_column" style="background-color:#44ccff;">
 			    <h1 id="title">Product Vision</h1>
 			    <p id = "Product_text">
 			    	For energy companies and legislators who need to find out the level of carbon emissions
@@ -29,8 +28,19 @@
 			        emission levels between countries, and providing information about a country’s economy and population.
 			    </p>
 			  </div>
-			  <div class="right_column" style="background-color:#44ccff;">
-			    <h1 id= "map_title">Choropleth</h1>
+			  <div id="select_country">
+				  <h1 id="selector">Select a Country</h1>
+				  <select id="country_select_0" onload="setupSelectorsOptions()" onclick="selectACountry(this)">
+                    <option value="">Select a Country</option>
+                  </select>
+			  </div>
+			  <div id="right_column" style="background-color:#44ccff;">
+			      <h1 id= "map_title">Choropleth</h1>
+				  <div id="home_map_back">
+					  <div id="map" onload="generateMap()">
+
+					  </div>
+				  </div>
 			  </div>
 		</div>
 		

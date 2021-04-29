@@ -2,10 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <script src='/scripts/emissions.js'></script>
         <link rel="stylesheet" href="css/Emissions.css">
         <title>Emissions Planner Visualize</title>
     </head>
-    <body>
+    <body onload="setupSelectorsOptions()">
         <div id='banner'>
             <img src='images/Emissions Planner Logo.png'>
             <h1 id="banner_text">Visualization Page</h1>
@@ -26,24 +27,24 @@
                 </div>
             </div>
             <div id='visualize_right'>
-                <button id="make_a_plan_button">Make a Plan</button>
-                <button id="top_20_button">Emissions for Top 20 Countries</button>
-                <button id="emissions_over_time_button">Emissions Over Time for Selected Country</button>
-                <select id="country_select_1">
+                <button id="make_a_plan_button" onclick="makeAPlan()">Make a Plan</button>
+                <button id="top_20_button" onclick="top20()">Emissions for Top 20 Countries</button>
+                <button id="emissions_over_time_button" onclick="emissionOverTime()">Emissions Over Time for Selected Country</button>
+                <select id="country_select_1" onload="setupSelectorsOptions()" onclick="selectACountry(this)">
                     <option value="">Select a Country</option>
                 </select>
                 <button id="compare_2_countries_button">Emissions for Top 20 Countries</button>
-                <select id="country_select_2a">
+                <select id="country_select_2a" onload="setupSelectorsOptions()" onclick="selectACountry(this)">
                     <option value="">Select a Country #1</option>
                 </select>
-                <select id="country_select_2b">
+                <select id="country_select_2b" onload="setupSelectorsOptions()" onclick="selectACountry(this)">
                     <option value="">Select a Country #2</option>
                 </select>
             </div>
         </div>
         <!--
             help button should generate this \/\/\/\/\/\/
-        -->
+
         <div id="tutorial_body">
             <div id="tutorial_back_panel_left">
                 <div id="info_panel_left">
@@ -83,7 +84,6 @@
             </div>
             <button id="tutorial_quit">Quit</button>
         </div>
-        <!--
             End of tutorial html elements
         -->
     </body>

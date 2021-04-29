@@ -51,6 +51,7 @@ body {
 }
 
 #help_button {
+    display: none;
     padding: 0px;
     margin: 2px;
     width: 88px;
@@ -116,7 +117,7 @@ body {
     background-color: white;
     height: 619px;
     float: left;
-    z-index: -1;
+    z-index: 0;
 }
 /*
     Visualization button panel
@@ -129,7 +130,7 @@ body {
     background-color: #3388FF;
     float: left;
     height: 900px;
-    z-index: -1;
+    z-index: 0;
 }
 
 #visualize_right button {
@@ -310,40 +311,45 @@ body {
 }
 
 #body{
-	display: flex;
+	margin: 2px;
+	padding: 2px;
+    display: flex;
+    flex-direction: row;
 }
 
-
-/* Create two equal columns that floats next to each other */
-.left_column {
-  float: left;
-  width: 35%;
-  padding: 10px;
-  height: 400px;  /*Should be removed. Only for demonstration */
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 10px;
+#select_country {
+    margin: 4px;
+    padding: 8px;
+    width: 735px;
+    height: 55%;
+    top: 525px;
+    background-color: #3388FF;
+    position: absolute;
+}
+#left_column {
+    margin: 4px;
+    padding: 8px;
+    position: absolute;
+    width: 735px;
+    height: 385px;
+}
+#right_column {
+    margin: 4px;
+    padding: 8px;
+    width: 50%;
+    height: 800px;
+    left: 50%;
+    position: absolute;
 }
 
-.right_column {
-  float: left;
-  width: 60%;
-  padding: 10px;
-  height: 700px;  /*Should be removed. Only for demonstration */
-  margin-top: 10px;
-  margin-left: 30px;
-  margin-right: 5px;
-  margin-bottom: 10px;
+#home_map_back {
+    background-color: white;
+     margin: 4px;
+    padding: 8px;
+    width: 97%;
+    height: 700px;
+    position: absolute;
 }
-
-/* Clear floats after the columns */
-.body:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 #Graph{
   width: 1376px;
   height: 267px;
