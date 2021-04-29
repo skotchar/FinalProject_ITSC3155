@@ -1,0 +1,247 @@
+﻿name,code,pop
+Antigua and Barbuda,ATG,557.384
+Algeria,DZA,150005.969
+Azerbaijan,AZE,37619.753
+Albania,ALB,4536.079
+Armenia,ARM,5155.802
+Angola,AGO,34693.487
+American Samoa,ASM,0
+Argentina,ARG,201347.636
+Australia,AUS,375907.837
+Bahrain,BHR,31693.881
+Barbados,BRB,1276.116
+Bermuda,BMU,612.389
+Bahamas,BHS,1785.829
+Bangladesh,BGD,84245.658
+Belize,BLZ,568.385
+Bosnia and Herzegovina,BIH,21847.986
+Bolivia,BOL,21605.964
+Burma,MMR,25280.298
+Benin,BEN,6475.922
+Solomon Islands,SLB,168.682
+Brazil,BRA,462298.69
+Bulgaria,BGR,41708.458
+Brunei Darussalam,BRN,7664.03
+Canada,CAN,544894.198
+Cambodia,KHM,9919.235
+Sri Lanka,LKA,23362.457
+Congo,COG,3281.965
+Democratic Republic of the Congo,COD,2020.517
+Burundi,BDI,495.045
+China,CHN,9893037.952
+Afghanistan,AFG,8672.455
+Bhutan,BTN,1261.448
+Chile,CHL,85822.468
+Cayman Islands,CYM,546.383
+Cameroon,CMR,8291.087
+Chad,TCD,1015.759
+Comoros,COM,201.685
+Colombia,COL,97813.558
+Costa Rica,CRI,8023.396
+Central African Republic,CAF,297.027
+Cuba,CUB,28283.571
+Cape Verde,CPV,542.716
+Cook Islands,COK,0
+Cyprus,CYP,6626.269
+Denmark,DNK,31785.556
+Djibouti,DJI,619.723
+Dominica,DMA,179.683
+Dominican Republic,DOM,25258.296
+Ecuador,ECU,41154.741
+Egypt,EGY,238560.352
+Ireland,IRL,37711.428
+Equatorial Guinea,GNQ,5654.514
+Estonia,EST,16589.508
+Eritrea,ERI,711.398
+El Salvador,SLV,7168.985
+Ethiopia,ETH,14869.685
+Austria,AUT,61447.919
+Czech Republic,CZE,102217.625
+French Guiana,GUF,0
+Finland,FIN,45870.503
+Fiji,FJI,2046.186
+Falkland Islands (Malvinas),FLK,0
+"Micronesia, Federated States of",FSM,143.013
+French Polynesia,PYF,770.07
+France,FRA,303275.568
+Gambia,GMB,531.715
+Gabon,GAB,5320.817
+Georgia,GEO,10128.254
+Ghana,GHA,16670.182
+Grenada,GRD,267.691
+Greenland,GRL,509.713
+Germany,DEU,727972.84
+Guam,GUM,0
+Greece,GRC,62434.342
+Guatemala,GTM,16776.525
+Guinea,GIN,2995.939
+Guyana,GUY,2383.55
+Haiti,HTI,2977.604
+Honduras,HND,9812.892
+Croatia,HRV,17487.923
+Hungary,HUN,45536.806
+Iceland,ISL,2064.521
+India,IND,563324.54
+Iran (Islamic Republic of),IRN,661710.15
+Israel,ISR,65166.257
+Italy,ITA,320411.495
+Cote d'Ivoire,CIV,9673.546
+Iraq,IRQ,190060.61
+Japan,JPN,1135886.253
+Jamaica,JAM,8225.081
+Jordan,JOR,25107.949
+Kenya,KEN,17909.628
+Kyrgyzstan,KGZ,9787.223
+"Korea, Democratic People's Republic of",PRK,28283.571
+Kiribati,KIR,66.006
+"Korea, Republic of",KOR,620302.386
+Kuwait,KWT,98733.975
+Kazakhstan,KAZ,247207.138
+Lao People's Democratic Republic,LAO,17762.948
+Lebanon,LBN,24796.254
+Latvia,LVA,7003.97
+Belarus,BLR,58279.631
+Lithuania,LTU,12962.845
+Liberia,LBR,1386.126
+Slovakia,SVK,32423.614
+Liechtenstein,LIE,51.338
+Libyan Arab Jamahiriya,LBY,50564.263
+Madagascar,MDG,3905.355
+Martinique,MTQ,0
+Mongolia,MNG,25368.306
+Montserrat,MSR,0
+The former Yugoslav Republic of Macedonia,MKD,7051.641
+Mali,MLI,3179.289
+Morocco,MAR,61275.57
+Mauritius,MUS,4349.062
+Mauritania,MRT,2739.249
+Malta,MLT,1342.122
+Oman,OMN,63457.435
+Maldives,MDV,1444.798
+Mexico,MEX,486405.548
+Malaysia,MYS,248288.903
+Mozambique,MOZ,7942.722
+Malawi,MWI,1298.118
+New Caledonia,NCL,5328.151
+Niue,NIU,0
+Niger,NER,2016.85
+Aruba,ABW,883.747
+Anguilla,AIA,0
+Belgium,BEL,96889.474
+Hong Kong,HKG,43644.634
+Northern Mariana Islands,MNP,0
+Faroe Islands,FRO,630.724
+Andorra,AND,469.376
+Gibraltar,GIB,634.391
+Isle of Man,IMN,0
+Luxembourg,LUX,8987.817
+Macau,MAC,2068.188
+Monaco,MCO,0
+Palestine,PSE,3234.294
+Montenegro,MNE,2016.85
+Mayotte,MYT,0
+Åland Islands,ALA,0
+Norfolk Island,NFK,0
+Cocos (Keeling) Islands,CCK,0
+Antarctica,ATA,0
+Bouvet Island,BVT,0
+French Southern and Antarctic Lands,ATF,0
+Heard Island and McDonald Islands,HMD,0
+British Indian Ocean Territory,IOT,0
+Christmas Island,CXR,0
+United States Minor Outlying Islands,UMI,0
+Vanuatu,VUT,146.68
+Nigeria,NGA,120369.275
+Netherlands,NLD,170779.524
+Norway,NOR,41022.729
+Nepal,NPL,9105.161
+Nauru,NRU,47.671
+Suriname,SUR,1738.158
+Nicaragua,NIC,5592.175
+New Zealand,NZL,34381.792
+Paraguay,PRY,7407.34
+Peru,PER,57414.219
+Pakistan,PAK,201149.618
+Poland,POL,299036.516
+Panama,PAN,10714.974
+Portugal,PRT,48741.764
+Papua New Guinea,PNG,7535.685
+Guinea-Bissau,GNB,293.36
+Qatar,QAT,103259.053
+Reunion,REU,0
+Romania,ROU,69258.629
+Republic of Moldova,MDA,5115.465
+Philippines,PHL,122287.116
+Puerto Rico,PRI,0
+Russia,RUS,1732026.776
+Rwanda,RWA,1114.768
+Saudi Arabia,SAU,563449.218
+Saint Kitts and Nevis,KNA,238.355
+Seychelles,SYC,605.055
+South Africa,ZAF,476643.994
+Lesotho,LSO,2511.895
+Botswana,BWA,6340.243
+Senegal,SEN,10901.991
+Slovenia,SVN,12632.815
+Sierra Leone,SLE,1092.766
+Singapore,SGP,37535.412
+Somalia,SOM,645.392
+Spain,ESP,244002.18
+Saint Lucia,LCA,414.371
+Sudan,SDN,19999.818
+Sweden,SWE,43252.265
+Syrian Arab Republic,SYR,28829.954
+Switzerland,CHE,34477.134
+Trinidad and Tobago,TTO,43868.321
+Thailand,THA,283763.461
+Tajikistan,TJK,5309.816
+Tokelau,TKL,0
+Tonga,TON,128.345
+Togo,TGO,2999.606
+Sao Tome and Principe,STP,121.011
+Tunisia,TUN,29937.388
+Turkey,TUR,372724.881
+Tuvalu,TUV,11.001
+Turkmenistan,TKM,70630.087
+United Republic of Tanzania,TZA,11972.755
+Uganda,UGA,5680.183
+United Kingdom,GBR,379024.787
+Ukraine,UKR,202249.718
+United States,USA,5006302.077
+Burkina Faso,BFA,3417.644
+Uruguay,URY,6765.615
+Uzbekistan,UZB,91810.679
+Saint Vincent and the Grenadines,VCT,220.02
+Venezuela,VEN,164175.257
+British Virgin Islands,VGB,212.686
+Viet Nam,VNM,192667.847
+United States Virgin Islands,VIR,0
+Namibia,NAM,4228.051
+Wallis and Futuna Islands,WLF,0
+Samoa,WSM,245.689
+Swaziland,SWZ,1155.105
+Yemen,YEM,10608.631
+Zambia,ZMB,5141.134
+Zimbabwe,ZWE,10982.665
+Indonesia,IDN,563324.54
+Guadeloupe,GLP,0
+Netherlands Antilles,ANT,0
+United Arab Emirates,ARE,206323.755
+Timor-Leste,TLS,495.045
+Pitcairn Islands,PCN,0
+Palau,PLW,223.687
+Marshall Islands,MHL,143.013
+Saint Pierre and Miquelon,SPM,0
+Saint Helena,SHN,0
+San Marino,SMR,0
+Turks and Caicos Islands,TCA,216.353
+Western Sahara,ESH,0
+Serbia,SRB,45221.444
+Holy See (Vatican City),VAT,0
+Svalbard,SJM,0
+Saint Martin,MAF,0
+Saint Barthelemy,BLM,0
+Guernsey,GGY,0
+Jersey,JEY,0
+South Georgia South Sandwich Islands,SGS,0
+Taiwan,TWN,0
