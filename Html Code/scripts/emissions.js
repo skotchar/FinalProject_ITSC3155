@@ -13,6 +13,6 @@ function setupSelectorsOptions() {
     */
 }
 
-function selectACountry(id)" {
+function selectACountry(id) {
     return id.value
 }
