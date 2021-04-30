@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Choropleth Map</title>
+  <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js" type="text/javascript"></script>
+  <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-map.min.js" type="text/javascript"></script>
+  <script src="https://cdn.anychart.com/releases/8.7.1/geodata/custom/world/world.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js" type="text/javascript"></script>
+  <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-data-adapter.min.js"></script>
+
+  <style>
+    html,
+    body,
+    #container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container"></div>
+  <script>
+
+    anychart.onDocumentReady(function () {
+
+      // load the data
+      anychart.data.loadJsonFile("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Html%20Code/datasets/NewWorldMapData.json", function (data) {
+
+        // Variables
+        // go into the records section of the data
+        var geoData = data.values
+
+        // sum of all cases per country
+        var sumCases = 0;
+
+        // sum of all deaths per country
+        //var sumDeaths = 0;
+
+        // convert cases and deaths to numbers
+        var numC;
+        //var numD;
+
+        // create a new array with the resulting data
+        var data = [];
+
+        // Go through the initial data
+        for (var i = 0; i < geoData.length; i++) {
+          // convert strings to numbers and save them to new variables
+          numC = parseInt(geoData[i].emmision);
+          //numD = parseInt(geoData[i].deaths);
+
+          // check if we are in the same country by comparing the geoId. 
+          // if the country is the same add the cases and deaths to the appropriate variables
+          if ((geoData[i + 1]) != null && (geoData[i].geoId == geoData[i + 1].geoId)) {
+            sumCases = sumCases + numC;
+            //sumDeaths = sumDeaths + numD;
+          }
+          else {
+            // add last day cases and deaths of the same country
+            sumCases = sumCases + numC;
+            //sumDeaths = sumDeaths + numD;
+
+            // insert the resulting data in the array using the AnyChart keywords 
+            data.push({ id: geoData[i].geoId, value: sumCases, title: geoData[i].name })
+
+            // reset the variables to start over
+            sumCases = 0;
+            //sumDeaths = 0;
+
+          }
+        };
+
+        // connect the data with the map
+        var chart = anychart.map(data);
+        chart.geoData(anychart.maps.world);
+
+        // specify the chart type and set the series 
+        var series = chart.choropleth(data);
+
+        // variable to store data that will be used for bubbles
+        var bubbleData = [];
+
+        // store only the countries that have at least 1 death
+        for (var i = 0; i < data.length; i++) {
+          if (data[i].size > 0) {
+            bubbleData.push(data[i]);
+          }
+        };
+
+        // create a series for bubbles
+        var series_1 = chart.bubble(bubbleData);
+
+        // set the maximum size of the bubble
+        chart.maxBubbleSize(25);
+
+        // set the minimum size of the bubble
+        chart.minBubbleSize(3);
+
+        // set colors and stroke of bubbles
+        series_1.normal().fill("black", 0.3);
+        series_1.hovered().fill("black", 0.1);
+        series_1.selected().fill("black", 0.5);
+        series_1.normal().stroke("rgb(150,33,31)");
+        series_1.hovered().stroke("rgb(150,33,31)", 2);
+        series_1.selected().stroke("rgb(150,33,31)", 4);
+
+        // set the chart title
+        chart.title("CO2 Emisions World Wide in Kilo Tons (kt)");
+
+        // color scale ranges
+        ocs = anychart.scales.ordinalColor([
+          { less: 9 },
+          { from: 10, to: 99 },
+          { from: 100, to: 999 },
+          { from: 1000, to: 9999 },
+          { from: 10000, to: 99999 },
+          { from: 100000, to: 999999 },
+          { from: 1000000, to: 1900000 },
+          { greater: 2000000 }
+        ]);
+
+        // set scale colors
+        ocs.colors(["rgb(252,245,245)", "rgb(241,219,216)", "rgb(229,190,185)", "rgb(211,152,145)", "rgb(192,117,109)", "rgb(178,93,86)", "rgb(152,50,48)", "rgb(150,33,31)"]);
+
+        // tell the series what to use as a colorRange (colorScale)
+        series.colorScale(ocs);
+
+        // enable the legend
+        chart.legend(true);
+
+        // set the source mode of the legend and add styles
+        chart.legend()
+          .itemsSourceMode("categories")
+          .position('right')
+          .align('top')
+          .itemsLayout('vertical')
+          .padding(50, 0, 0, 20)
+          .paginator(false);
+
+        // tooltip formatting
+        series.tooltip().format("Total Emmision: {%value}");
+        //series_1.tooltip().format("Total Deaths: {%size}");
+
+        // set the container id
+        chart.container('container');
+
+        // draw the chart
+        chart.draw();
+      });
+
+
+    });
+  </script>
+</body>
+
+</html>
