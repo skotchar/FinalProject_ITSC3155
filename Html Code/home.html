@@ -5,6 +5,11 @@
 		<link rel="stylesheet" href='css/Emissions.css'>
 		<script src='scripts/emissions.js'></script>
 		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js" type="text/javascript"></script>
+  		<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-map.min.js" type="text/javascript"></script>
+  		<script src="https://cdn.anychart.com/releases/8.7.1/geodata/custom/world/world.js" type="text/javascript"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js" type="text/javascript"></script>
+  		<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-data-adapter.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="refresh" content="30">
 		<style>
@@ -18,7 +23,7 @@
 			<img src='images/Emissions Planner Logo.png'>
 			<h1 id="banner_text">Home</h1>
 		</div>
-		<div class="body" onload="setupSelectorsOptions()">
+		<div class="body">
 			  <div id="left_column" style="background-color:#44ccff;">
 			    <h1 id="title">Product Vision</h1>
 			    <p id = "Product_text">
@@ -31,52 +36,142 @@
 			  </div>
 			  <div id="select_country">
 				  <h1 id="selector">Select a Country</h1>
-				  <select id="country_select_0" onload="setupSelectorsOptions()" onclick="selectACountry(this)">
+				  <select id="country_select_0" onload="setupSelectorsOptions(this);" onchange="selectACountry(this);">
                     <option value="">Select a Country</option>
                   </select>
 			  </div>
 			  <div id="right_column" style="background-color:#44ccff;">
 			      <h1 id= "map_title">Choropleth</h1>
 				  <script>
-					  window.onload = function() {
-						/*
-							insert choropleth code here and set its render to the DIV element with id map
-						*/
-					  }
+					  anychart.onDocumentReady(function () {
+
+      // load the data
+      anychart.data.loadJsonFile("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Html%20Code/datasets/NewWorldMapData.json", function (data) {
+
+        // Variables
+        // go into the values section of the data
+        var geoData = data.values
+
+        // sum of all emisions per country
+        var sumCases = 0;
+
+        // convert emissions to numbers
+        var numC;
+
+        // create a new array with the resulting data
+        var data = [];
+
+        // Go through the initial data
+        for (var i = 0; i < geoData.length; i++) {
+          // convert strings to numbers and save them to new variables
+          numC = parseInt(geoData[i].emmision);
+
+
+          // check if we are in the same country by comparing the geoId.
+          // if the country is the same add the emision to the appropriate variables
+          if ((geoData[i + 1]) != null && (geoData[i].geoId == geoData[i + 1].geoId)) {
+            sumCases = sumCases + numC;
+
+          }
+          else {
+
+            sumCases = sumCases + numC;
+
+
+            // insert the resulting data in the array using the AnyChart keywords
+            data.push({ id: geoData[i].geoId, value: sumCases, title: geoData[i].name })
+
+            // reset the variables to start over
+            sumCases = 0;
+
+
+          }
+        };
+
+        // connect the data with the map
+        var chart = anychart.map(data);
+        chart.geoData(anychart.maps.world);
+
+        // specify the chart type and set the series
+        var series = chart.choropleth(data);
+
+        // variable to store data that will be used for bubbles
+        var bubbleData = [];
+
+        // store only the countries that have at least 1 death
+        for (var i = 0; i < data.length; i++) {
+          if (data[i].size > 0) {
+            bubbleData.push(data[i]);
+          }
+        };
+
+        // create a series for bubbles
+        var series_1 = chart.bubble(bubbleData);
+
+        // set the maximum size of the bubble
+        chart.maxBubbleSize(25);
+
+        // set the minimum size of the bubble
+        chart.minBubbleSize(3);
+
+        // set colors and stroke of bubbles
+        series_1.normal().fill("black", 0.3);
+        series_1.hovered().fill("black", 0.1);
+        series_1.selected().fill("black", 0.5);
+        series_1.normal().stroke("rgb(150,33,31)");
+        series_1.hovered().stroke("rgb(150,33,31)", 2);
+        series_1.selected().stroke("rgb(150,33,31)", 4);
+
+        // set the chart title
+        //chart.title("CO2 Emisions World Wide in Kilo Tons (kt)");
+
+        // color scale ranges
+        ocs = anychart.scales.ordinalColor([
+          { less: 9 },
+          { from: 10, to: 99 },
+          { from: 100, to: 999 },
+          { from: 1000, to: 9999 },
+          { from: 10000, to: 99999 },
+          { from: 100000, to: 999999 },
+          { from: 1000000, to: 1900000 },
+          { greater: 2000000 }
+        ]);
+
+        // set scale colors
+        ocs.colors(["rgb(252,245,245)", "rgb(241,219,216)", "rgb(229,190,185)", "rgb(211,152,145)", "rgb(192,117,109)", "rgb(178,93,86)", "rgb(152,50,48)", "rgb(150,33,31)"]);
+
+        // tell the series what to use as a colorRange (colorScale)
+        series.colorScale(ocs);
+
+        // enable the legend
+        //chart.legend(true);
+
+        // set the source mode of the legend and add styles
+        chart.legend()
+          .itemsSourceMode("categories")
+          .position('right')
+          .align('top')
+          .itemsLayout('vertical')
+          .padding(50, 0, 0, 20)
+          .paginator(false);
+
+        // tooltip formatting
+        series.tooltip().format("Total Emmision: {%value}");
+        //series_1.tooltip().format("Total Deaths: {%size}");
+
+        // set the container id
+        chart.container('home_map_back');
+
+        // draw the chart
+        chart.draw();
+      });
+
+
+    });
 				  </script>
 				  <div id="home_map_back">
-					  <div id="map">
-
-					  </div>
 				  </div>
 			  </div>
 		</div>
 	</body>
 </html>
-
-
-<!-- 	
-
-		<div id='banner'>
-			<div class = "frame">
-				<button id='home_tutorial_button'>Start Tutorial</button>
-			</div>
-		</div>
-
-			<div id='home_top_left'>
-				<p>insert product vision here</p>
-			</div>
-			<div id='home_bottom_left'>
-				<button id='home_tutorial_button'>Start Tutorial</button>
-			</div>
-			<div id='home_top_right'>
-				<h1>Select a country from map</h1>
-			</div>
-			<div id='home_bottom_right'>
-				<div id='home_map_back'>
-					<div id='choropleth'>
-					
-					</div>
-				</div>
-			</div>
-			-->
