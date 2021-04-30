@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href='css/Emissions.css'>
 		<script src='scripts/emissions.js'></script>
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="refresh" content="30">
 		<style>
@@ -36,8 +37,15 @@
 			  </div>
 			  <div id="right_column" style="background-color:#44ccff;">
 			      <h1 id= "map_title">Choropleth</h1>
+				  <script>
+					  window.onload = function() {
+						/*
+							insert choropleth code here and set its render to the DIV element with id map
+						*/
+					  }
+				  </script>
 				  <div id="home_map_back">
-					  <div id="map" onload="generateMap()">
+					  <div id="map">
 
 					  </div>
 				  </div>
