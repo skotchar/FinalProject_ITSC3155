@@ -1,0 +1,1240 @@
+{
+"values": [
+ {
+   "name": "Afghanistan",
+   "code": "AFG",
+   "emmision": 8672.455,
+   "geoId": "AF"
+ },
+ {
+   "name": "Albania",
+   "code": "ALB",
+   "emmision": 4536.079,
+   "geoId": "AL"
+ },
+ {
+   "name": "Algeria",
+   "code": "DZA",
+   "emmision": 150005.969,
+   "geoId": "DZ"
+ },
+ {
+   "name": "Andorra",
+   "code": "AND",
+   "emmision": 469.376,
+   "geoId": "AD"
+ },
+ {
+   "name": "Angola",
+   "code": "AGO",
+   "emmision": 34693.487,
+   "geoId": "AO"
+ },
+ {
+   "name": "Anguilla",
+   "code": "AIA",
+   "emmision": 0,
+   "geoId": "AI"
+ },
+ {
+   "name": "Antigua and Barbuda",
+   "code": "ATG",
+   "emmision": 557.384,
+   "geoId": "AG"
+ },
+ {
+   "name": "Argentina",
+   "code": "ARG",
+   "emmision": 201347.636,
+   "geoId": "AR"
+ },
+ {
+   "name": "Armenia",
+   "code": "ARM",
+   "emmision": 5155.802,
+   "geoId": "AM"
+ },
+ {
+   "name": "Aruba",
+   "code": "ABW",
+   "emmision": 883.747,
+   "geoId": "AW"
+ },
+ {
+   "name": "Australia",
+   "code": "AUS",
+   "emmision": 375907.837,
+   "geoId": "AU"
+ },
+ {
+   "name": "Austria",
+   "code": "AUT",
+   "emmision": 61447.919,
+   "geoId": "AT"
+ },
+ {
+   "name": "Azerbaijan",
+   "code": "AZE",
+   "emmision": 37619.753,
+   "geoId": "AZ"
+ },
+ {
+   "name": "Bahamas",
+   "code": "BHS",
+   "emmision": 1785.829,
+   "geoId": "BS"
+ },
+ {
+   "name": "Bahrain",
+   "code": "BHR",
+   "emmision": 31693.881,
+   "geoId": "BH"
+ },
+ {
+   "name": "Bangladesh",
+   "code": "BGD",
+   "emmision": 84245.658,
+   "geoId": "BD"
+ },
+ {
+   "name": "Barbados",
+   "code": "BRB",
+   "emmision": 1276.116,
+   "geoId": "BB"
+ },
+ {
+   "name": "Belarus",
+   "code": "BLR",
+   "emmision": 58279.631,
+   "geoId": "BY"
+ },
+ {
+   "name": "Belgium",
+   "code": "BEL",
+   "emmision": 96889.474,
+   "geoId": "BE"
+ },
+ {
+   "name": "Belize",
+   "code": "BLZ",
+   "emmision": 568.385,
+   "geoId": "BZ"
+ },
+ {
+   "name": "Benin",
+   "code": "BEN",
+   "emmision": 6475.922,
+   "geoId": "BJ"
+ },
+ {
+   "name": "Bermuda",
+   "code": "BMU",
+   "emmision": 612.389,
+   "geoId": "BM"
+ },
+ {
+   "name": "Bhutan",
+   "code": "BTN",
+   "emmision": 1261.448,
+   "geoId": "BT"
+ },
+ {
+   "name": "Bolivia",
+   "code": "BOL",
+   "emmision": 21605.964,
+   "geoId": "BO"
+ },
+ {
+   "name": "Bonaire, Saint Eustatius and Saba",
+   "code": "BES",
+   "emmision": 0,
+   "geoId": "BQ"
+ },
+ {
+   "name": "Bosnia and Herzegovina",
+   "code": "BIH",
+   "emmision": 21847.986,
+   "geoId": "BA"
+ },
+ {
+   "name": "Botswana",
+   "code": "BWA",
+   "emmision": 6340.243,
+   "geoId": "BW"
+ },
+ {
+   "name": "Brazil",
+   "code": "BRA",
+   "emmision": 462298.69,
+   "geoId": "BR"
+ },
+ {
+   "name": "British Virgin Islands",
+   "code": "VGB",
+   "emmision": 212.686,
+   "geoId": "VG"
+ },
+ {
+   "name": "Brunei Darussalam",
+   "code": "BRN",
+   "emmision": 7664.03,
+   "geoId": "BN"
+ },
+ {
+   "name": "Bulgaria",
+   "code": "BGR",
+   "emmision": 41708.458,
+   "geoId": "BG"
+ },
+ {
+   "name": "Burkina Faso",
+   "code": "BFA",
+   "emmision": 3417.644,
+   "geoId": "BF"
+ },
+ {
+   "name": "Burundi",
+   "code": "BDI",
+   "emmision": 495.045,
+   "geoId": "BI"
+ },
+ {
+   "name": "Cambodia",
+   "code": "KHM",
+   "emmision": 9919.235,
+   "geoId": "KH"
+ },
+ {
+   "name": "Cameroon",
+   "code": "CMR",
+   "emmision": 8291.087,
+   "geoId": "CM"
+ },
+ {
+   "name": "Canada",
+   "code": "CAN",
+   "emmision": 544894.198,
+   "geoId": "CA"
+ },
+ {
+   "name": "Cape Verde",
+   "code": "CPV",
+   "emmision": 542.716,
+   "geoId": "CV"
+ },
+ {
+   "name": "Cases_on_an_international_conveyance_Japan",
+   "code": "JPN",
+   "emmision": 0,
+   "geoId": "JPG11668"
+ },
+ {
+   "name": "Cayman Islands",
+   "code": "CYM",
+   "emmision": 546.383,
+   "geoId": "KY"
+ },
+ {
+   "name": "Central African Republic",
+   "code": "CAF",
+   "emmision": 297.027,
+   "geoId": "CF"
+ },
+ {
+   "name": "Chad",
+   "code": "TCD",
+   "emmision": 1015.759,
+   "geoId": "TD"
+ },
+ {
+   "name": "Chile",
+   "code": "CHL",
+   "emmision": 85822.468,
+   "geoId": "CL"
+ },
+ {
+   "name": "China",
+   "code": "CHN",
+   "emmision": 9893037.952,
+   "geoId": "CN"
+ },
+ {
+   "name": "Colombia",
+   "code": "COL",
+   "emmision": 97813.558,
+   "geoId": "CO"
+ },
+ {
+   "name": "Congo",
+   "code": "COG",
+   "emmision": 3281.965,
+   "geoId": "CG"
+ },
+ {
+   "name": "Costa Rica",
+   "code": "CRI",
+   "emmision": 8023.396,
+   "geoId": "CR"
+ },
+ {
+   "name": "Cote d'Ivoire",
+   "code": "CIV",
+   "emmision": 9673.546,
+   "geoId": "CI"
+ },
+ {
+   "name": "Croatia",
+   "code": "HRV",
+   "emmision": 17487.923,
+   "geoId": "HR"
+ },
+ {
+   "name": "Cuba",
+   "code": "CUB",
+   "emmision": 28283.571,
+   "geoId": "CU"
+ },
+ {
+   "name": "Curaçao",
+   "code": "CUW",
+   "emmision": 0,
+   "geoId": "CW"
+ },
+ {
+   "name": "Cyprus",
+   "code": "CYP",
+   "emmision": 6626.269,
+   "geoId": "CY"
+ },
+ {
+   "name": "Czech Republic",
+   "code": "CZE",
+   "emmision": 102217.625,
+   "geoId": "CZ"
+ },
+ {
+   "name": "Democratic Republic of the Congo",
+   "code": "COD",
+   "emmision": 2020.517,
+   "geoId": "CD"
+ },
+ {
+   "name": "Denmark",
+   "code": "DNK",
+   "emmision": 31785.556,
+   "geoId": "DK"
+ },
+ {
+   "name": "Djibouti",
+   "code": "DJI",
+   "emmision": 619.723,
+   "geoId": "DJ"
+ },
+ {
+   "name": "Dominica",
+   "code": "DMA",
+   "emmision": 179.683,
+   "geoId": "DM"
+ },
+ {
+   "name": "Dominican Republic",
+   "code": "DOM",
+   "emmision": 25258.296,
+   "geoId": "DO"
+ },
+ {
+   "name": "Ecuador",
+   "code": "ECU",
+   "emmision": 41154.741,
+   "geoId": "EC"
+ },
+ {
+   "name": "Egypt",
+   "code": "EGY",
+   "emmision": 238560.352,
+   "geoId": "EG"
+ },
+ {
+   "name": "El Salvador",
+   "code": "SLV",
+   "emmision": 7168.985,
+   "geoId": "SV"
+ },
+ {
+   "name": "Equatorial Guinea",
+   "code": "GNQ",
+   "emmision": 5654.514,
+   "geoId": "GQ"
+ },
+ {
+   "name": "Eritrea",
+   "code": "ERI",
+   "emmision": 711.398,
+   "geoId": "ER"
+ },
+ {
+   "name": "Estonia",
+   "code": "EST",
+   "emmision": 16589.508,
+   "geoId": "EE"
+ },
+ {
+   "name": "Eswatini",
+   "code": "SWZ",
+   "emmision": 1155.105,
+   "geoId": "SZ"
+ },
+ {
+   "name": "Ethiopia",
+   "code": "ETH",
+   "emmision": 14869.685,
+   "geoId": "ET"
+ },
+ {
+   "name": "Falkland Islands (Malvinas)",
+   "code": "FLK",
+   "emmision": 0,
+   "geoId": "FK"
+ },
+ {
+   "name": "Faroe Islands",
+   "code": "FRO",
+   "emmision": 630.724,
+   "geoId": "FO"
+ },
+ {
+   "name": "Fiji",
+   "code": "FJI",
+   "emmision": 2046.186,
+   "geoId": "FJ"
+ },
+ {
+   "name": "Finland",
+   "code": "FIN",
+   "emmision": 45870.503,
+   "geoId": "FI"
+ },
+ {
+   "name": "France",
+   "code": "FRA",
+   "emmision": 303275.568,
+   "geoId": "FR"
+ },
+ {
+   "name": "French Polynesia",
+   "code": "PYF",
+   "emmision": 770.07,
+   "geoId": "PF"
+ },
+ {
+   "name": "Gabon",
+   "code": "GAB",
+   "emmision": 5320.817,
+   "geoId": "GA"
+ },
+ {
+   "name": "Gambia",
+   "code": "GMB",
+   "emmision": 531.715,
+   "geoId": "GM"
+ },
+ {
+   "name": "Georgia",
+   "code": "GEO",
+   "emmision": 10128.254,
+   "geoId": "GE"
+ },
+ {
+   "name": "Germany",
+   "code": "DEU",
+   "emmision": 727972.84,
+   "geoId": "DE"
+ },
+ {
+   "name": "Ghana",
+   "code": "GHA",
+   "emmision": 16670.182,
+   "geoId": "GH"
+ },
+ {
+   "name": "Gibraltar",
+   "code": "GIB",
+   "emmision": 634.391,
+   "geoId": "GI"
+ },
+ {
+   "name": "Greece",
+   "code": "GRC",
+   "emmision": 62434.342,
+   "geoId": "GR"
+ },
+ {
+   "name": "Greenland",
+   "code": "GRL",
+   "emmision": 509.713,
+   "geoId": "GL"
+ },
+ {
+   "name": "Grenada",
+   "code": "GRD",
+   "emmision": 267.691,
+   "geoId": "GD"
+ },
+ {
+   "name": "Guam",
+   "code": "GUM",
+   "emmision": 0,
+   "geoId": "GU"
+ },
+ {
+   "name": "Guatemala",
+   "code": "GTM",
+   "emmision": 16776.525,
+   "geoId": "GT"
+ },
+ {
+   "name": "Guernsey",
+   "code": "GGY",
+   "emmision": 0,
+   "geoId": "GG"
+ },
+ {
+   "name": "Guinea",
+   "code": "GIN",
+   "emmision": 2995.939,
+   "geoId": "GN"
+ },
+ {
+   "name": "Guinea-Bissau",
+   "code": "GNB",
+   "emmision": 293.36,
+   "geoId": "GW"
+ },
+ {
+   "name": "Guyana",
+   "code": "GUY",
+   "emmision": 2383.55,
+   "geoId": "GY"
+ },
+ {
+   "name": "Haiti",
+   "code": "HTI",
+   "emmision": 2977.604,
+   "geoId": "HT"
+ },
+ {
+   "name": "Holy See (Vatican City)",
+   "code": "VAT",
+   "emmision": 0,
+   "geoId": "VA"
+ },
+ {
+   "name": "Honduras",
+   "code": "HND",
+   "emmision": 9812.892,
+   "geoId": "HN"
+ },
+ {
+   "name": "Hungary",
+   "code": "HUN",
+   "emmision": 45536.806,
+   "geoId": "HU"
+ },
+ {
+   "name": "Iceland",
+   "code": "ISL",
+   "emmision": 2064.521,
+   "geoId": "IS"
+ },
+ {
+   "name": "India",
+   "code": "IND",
+   "emmision": 563324.54,
+   "geoId": "IN"
+ },
+ {
+   "name": "Indonesia",
+   "code": "IDN",
+   "emmision": 563324.54,
+   "geoId": "ID"
+ },
+ {
+   "name": "Iran (Islamic Republic of)",
+   "code": "IRN",
+   "emmision": 661710.15,
+   "geoId": "IR"
+ },
+ {
+   "name": "Iraq",
+   "code": "IRQ",
+   "emmision": 190060.61,
+   "geoId": "IQ"
+ },
+ {
+   "name": "Ireland",
+   "code": "IRL",
+   "emmision": 37711.428,
+   "geoId": "IE"
+ },
+ {
+   "name": "Isle of Man",
+   "code": "IMN",
+   "emmision": 0,
+   "geoId": "IM"
+ },
+ {
+   "name": "Israel",
+   "code": "ISR",
+   "emmision": 65166.257,
+   "geoId": "IL"
+ },
+ {
+   "name": "Italy",
+   "code": "ITA",
+   "emmision": 320411.495,
+   "geoId": "IT"
+ },
+ {
+   "name": "Jamaica",
+   "code": "JAM",
+   "emmision": 8225.081,
+   "geoId": "JM"
+ },
+ {
+   "name": "Japan",
+   "code": "JPN",
+   "emmision": 1135886.253,
+   "geoId": "JP"
+ },
+ {
+   "name": "Jersey",
+   "code": "JEY",
+   "emmision": 0,
+   "geoId": "JE"
+ },
+ {
+   "name": "Jordan",
+   "code": "JOR",
+   "emmision": 25107.949,
+   "geoId": "JO"
+ },
+ {
+   "name": "Kazakhstan",
+   "code": "KAZ",
+   "emmision": 247207.138,
+   "geoId": "KZ"
+ },
+ {
+   "name": "Kenya",
+   "code": "KEN",
+   "emmision": 17909.628,
+   "geoId": "KE"
+ },
+ {
+   "name": "Kosovo",
+   "code": "XKX",
+   "emmision": 0,
+   "geoId": "XK"
+ },
+ {
+   "name": "Kuwait",
+   "code": "KWT",
+   "emmision": 98733.975,
+   "geoId": "KW"
+ },
+ {
+   "name": "Kyrgyzstan",
+   "code": "KGZ",
+   "emmision": 9787.223,
+   "geoId": "KG"
+ },
+ {
+   "name": "Lao People's Democratic Republic",
+   "code": "LAO",
+   "emmision": 17762.948,
+   "geoId": "LA"
+ },
+ {
+   "name": "Latvia",
+   "code": "LVA",
+   "emmision": 7003.97,
+   "geoId": "LV"
+ },
+ {
+   "name": "Lebanon",
+   "code": "LBN",
+   "emmision": 24796.254,
+   "geoId": "LB"
+ },
+ {
+   "name": "Liberia",
+   "code": "LBR",
+   "emmision": 1386.126,
+   "geoId": "LR"
+ },
+ {
+   "name": "Libyan Arab Jamahiriya",
+   "code": "LBY",
+   "emmision": 50564.263,
+   "geoId": "LY"
+ },
+ {
+   "name": "Liechtenstein",
+   "code": "LIE",
+   "emmision": 51.338,
+   "geoId": "LI"
+ },
+ {
+   "name": "Lithuania",
+   "code": "LTU",
+   "emmision": 12962.845,
+   "geoId": "LT"
+ },
+ {
+   "name": "Luxembourg",
+   "code": "LUX",
+   "emmision": 8987.817,
+   "geoId": "LU"
+ },
+ {
+   "name": "Madagascar",
+   "code": "MDG",
+   "emmision": 3905.355,
+   "geoId": "MG"
+ },
+ {
+   "name": "Malawi",
+   "code": "MWI",
+   "emmision": 1298.118,
+   "geoId": "MW"
+ },
+ {
+   "name": "Malaysia",
+   "code": "MYS",
+   "emmision": 248288.903,
+   "geoId": "MY"
+ },
+ {
+   "name": "Maldives",
+   "code": "MDV",
+   "emmision": 1444.798,
+   "geoId": "MV"
+ },
+ {
+   "name": "Mali",
+   "code": "MLI",
+   "emmision": 3179.289,
+   "geoId": "ML"
+ },
+ {
+   "name": "Malta",
+   "code": "MLT",
+   "emmision": 1342.122,
+   "geoId": "MT"
+ },
+ {
+   "name": "Mauritania",
+   "code": "MRT",
+   "emmision": 2739.249,
+   "geoId": "MR"
+ },
+ {
+   "name": "Mauritius",
+   "code": "MUS",
+   "emmision": 4349.062,
+   "geoId": "MU"
+ },
+ {
+   "name": "Mexico",
+   "code": "MEX",
+   "emmision": 486405.548,
+   "geoId": "MX"
+ },
+ {
+   "name": "Moldova",
+   "code": "MDA",
+   "emmision": 5115.465,
+   "geoId": "MD"
+ },
+ {
+   "name": "Monaco",
+   "code": "MCO",
+   "emmision": 0,
+   "geoId": "MC"
+ },
+ {
+   "name": "Mongolia",
+   "code": "MNG",
+   "emmision": 25368.306,
+   "geoId": "MN"
+ },
+ {
+   "name": "Montenegro",
+   "code": "MNE",
+   "emmision": 2016.85,
+   "geoId": "ME"
+ },
+ {
+   "name": "Montserrat",
+   "code": "MSR",
+   "emmision": 0,
+   "geoId": "MS"
+ },
+ {
+   "name": "Morocco",
+   "code": "MAR",
+   "emmision": 61275.57,
+   "geoId": "MA"
+ },
+ {
+   "name": "Mozambique",
+   "code": "MOZ",
+   "emmision": 7942.722,
+   "geoId": "MZ"
+ },
+ {
+   "name": "Myanmar",
+   "code": "MMR",
+   "emmision": 25280.298,
+   "geoId": "MM"
+ },
+ {
+   "name": "Namibia",
+   "code": "NAM",
+   "emmision": 4228.051,
+   "geoId": "NA"
+ },
+ {
+   "name": "Nepal",
+   "code": "NPL",
+   "emmision": 9105.161,
+   "geoId": "NP"
+ },
+ {
+   "name": "Netherlands",
+   "code": "NLD",
+   "emmision": 170779.524,
+   "geoId": "NL"
+ },
+ {
+   "name": "New Caledonia",
+   "code": "NCL",
+   "emmision": 5328.151,
+   "geoId": "NC"
+ },
+ {
+   "name": "New Zealand",
+   "code": "NZL",
+   "emmision": 34381.792,
+   "geoId": "NZ"
+ },
+ {
+   "name": "Nicaragua",
+   "code": "NIC",
+   "emmision": 5592.175,
+   "geoId": "NI"
+ },
+ {
+   "name": "Niger",
+   "code": "NER",
+   "emmision": 2016.85,
+   "geoId": "NE"
+ },
+ {
+   "name": "Nigeria",
+   "code": "NGA",
+   "emmision": 120369.275,
+   "geoId": "NG"
+ },
+ {
+   "name": "North Macedonia",
+   "code": "MKD",
+   "emmision": 7051.641,
+   "geoId": "MK"
+ },
+ {
+   "name": "North Mariana Islands",
+   "code": "MNP",
+   "emmision": 0,
+   "geoId": "MP"
+ },
+ {
+   "name": "Norway",
+   "code": "NOR",
+   "emmision": 41022.729,
+   "geoId": "NO"
+ },
+ {
+   "name": "Oman",
+   "code": "OMN",
+   "emmision": 63457.435,
+   "geoId": "OM"
+ },
+ {
+   "name": "Pakistan",
+   "code": "PAK",
+   "emmision": 201149.618,
+   "geoId": "PK"
+ },
+ {
+   "name": "Palestine",
+   "code": "PSE",
+   "emmision": 3234.294,
+   "geoId": "PS"
+ },
+ {
+   "name": "Panama",
+   "code": "PAN",
+   "emmision": 10714.974,
+   "geoId": "PA"
+ },
+ {
+   "name": "Papua New Guinea",
+   "code": "PNG",
+   "emmision": 7535.685,
+   "geoId": "PG"
+ },
+ {
+   "name": "Paraguay",
+   "code": "PRY",
+   "emmision": 7407.34,
+   "geoId": "PY"
+ },
+ {
+   "name": "Peru",
+   "code": "PER",
+   "emmision": 57414.219,
+   "geoId": "PE"
+ },
+ {
+   "name": "Philippines",
+   "code": "PHL",
+   "emmision": 122287.116,
+   "geoId": "PH"
+ },
+ {
+   "name": "Poland",
+   "code": "POL",
+   "emmision": 299036.516,
+   "geoId": "PL"
+ },
+ {
+   "name": "Portugal",
+   "code": "PRT",
+   "emmision": 48741.764,
+   "geoId": "PT"
+ },
+ {
+   "name": "Puerto Rico",
+   "code": "PRI",
+   "emmision": 0,
+   "geoId": "PR"
+ },
+ {
+   "name": "Qatar",
+   "code": "QAT",
+   "emmision": 103259.053,
+   "geoId": "QA"
+ },
+ {
+   "name": "Romania",
+   "code": "ROU",
+   "emmision": 69258.629,
+   "geoId": "RO"
+ },
+ {
+   "name": "Russia",
+   "code": "RUS",
+   "emmision": 1732026.776,
+   "geoId": "RU"
+ },
+ {
+   "name": "Rwanda",
+   "code": "RWA",
+   "emmision": 1114.768,
+   "geoId": "RW"
+ },
+ {
+   "name": "Saint Kitts and Nevis",
+   "code": "KNA",
+   "emmision": 238.355,
+   "geoId": "KN"
+ },
+ {
+   "name": "Saint Lucia",
+   "code": "LCA",
+   "emmision": 414.371,
+   "geoId": "LC"
+ },
+ {
+   "name": "Saint Vincent and the Grenadines",
+   "code": "VCT",
+   "emmision": 220.02,
+   "geoId": "VC"
+ },
+ {
+   "name": "San Marino",
+   "code": "SMR",
+   "emmision": 0,
+   "geoId": "SM"
+ },
+ {
+   "name": "Sao Tome and Principe",
+   "code": "STP",
+   "emmision": 121.011,
+   "geoId": "ST"
+ },
+ {
+   "name": "Saudi Arabia",
+   "code": "SAU",
+   "emmision": 563449.218,
+   "geoId": "SA"
+ },
+ {
+   "name": "Senegal",
+   "code": "SEN",
+   "emmision": 10901.991,
+   "geoId": "SN"
+ },
+ {
+   "name": "Serbia",
+   "code": "SRB",
+   "emmision": 45221.444,
+   "geoId": "RS"
+ },
+ {
+   "name": "Seychelles",
+   "code": "SYC",
+   "emmision": 605.055,
+   "geoId": "SC"
+ },
+ {
+   "name": "Sierra Leone",
+   "code": "SLE",
+   "emmision": 1092.766,
+   "geoId": "SL"
+ },
+ {
+   "name": "Singapore",
+   "code": "SGP",
+   "emmision": 37535.412,
+   "geoId": "SG"
+ },
+ {
+   "name": "Sint Maarten",
+   "code": "SXM",
+   "emmision": 0,
+   "geoId": "SX"
+ },
+ {
+   "name": "Slovakia",
+   "code": "SVK",
+   "emmision": 32423.614,
+   "geoId": "SK"
+ },
+ {
+   "name": "Slovenia",
+   "code": "SVN",
+   "emmision": 12632.815,
+   "geoId": "SI"
+ },
+ {
+   "name": "Somalia",
+   "code": "SOM",
+   "emmision": 645.392,
+   "geoId": "SO"
+ },
+ {
+   "name": "South Africa",
+   "code": "ZAF",
+   "emmision": 476643.994,
+   "geoId": "ZA"
+ },
+ {
+   "name": "South Korea",
+   "code": "KOR",
+   "emmision": 620302.386,
+   "geoId": "KR"
+ },
+ {
+   "name": "South Sudan",
+   "code": "SSD",
+   "emmision": 0,
+   "geoId": "SS"
+ },
+ {
+   "name": "Spain",
+   "code": "ESP",
+   "emmision": 244002.18,
+   "geoId": "ES"
+ },
+ {
+   "name": "Sri Lanka",
+   "code": "LKA",
+   "emmision": 23362.457,
+   "geoId": "LK"
+ },
+ {
+   "name": "Sudan",
+   "code": "SDN",
+   "emmision": 19999.818,
+   "geoId": "SD"
+ },
+ {
+   "name": "Suriname",
+   "code": "SUR",
+   "emmision": 1738.158,
+   "geoId": "SR"
+ },
+ {
+   "name": "Sweden",
+   "code": "SWE",
+   "emmision": 43252.265,
+   "geoId": "SE"
+ },
+ {
+   "name": "Switzerland",
+   "code": "CHE",
+   "emmision": 34477.134,
+   "geoId": "CH"
+ },
+ {
+   "name": "Syrian Arab Republic",
+   "code": "SYR",
+   "emmision": 28829.954,
+   "geoId": "SY"
+ },
+ {
+   "name": "Taiwan",
+   "code": "TWN",
+   "emmision": 0,
+   "geoId": "TW"
+ },
+ {
+   "name": "Thailand",
+   "code": "THA",
+   "emmision": 283763.461,
+   "geoId": "TH"
+ },
+ {
+   "name": "Timor-Leste",
+   "code": "TLS",
+   "emmision": 495.045,
+   "geoId": "TL"
+ },
+ {
+   "name": "Togo",
+   "code": "TGO",
+   "emmision": 2999.606,
+   "geoId": "TG"
+ },
+ {
+   "name": "Trinidad and Tobago",
+   "code": "TTO",
+   "emmision": 43868.321,
+   "geoId": "TT"
+ },
+ {
+   "name": "Tunisia",
+   "code": "TUN",
+   "emmision": 29937.388,
+   "geoId": "TN"
+ },
+ {
+   "name": "Turkey",
+   "code": "TUR",
+   "emmision": 372724.881,
+   "geoId": "TR"
+ },
+ {
+   "name": "Turks and Caicos Islands",
+   "code": "TCA",
+   "emmision": 216.353,
+   "geoId": "TC"
+ },
+ {
+   "name": "Uganda",
+   "code": "UGA",
+   "emmision": 5680.183,
+   "geoId": "UG"
+ },
+ {
+   "name": "Ukraine",
+   "code": "UKR",
+   "emmision": 202249.718,
+   "geoId": "UA"
+ },
+ {
+   "name": "United Arab Emirates",
+   "code": "ARE",
+   "emmision": 206323.755,
+   "geoId": "AE"
+ },
+ {
+   "name": "United Kingdom",
+   "code": "GBR",
+   "emmision": 379024.787,
+   "geoId": "GB"
+ },
+ {
+   "name": "United Republic of Tanzania",
+   "code": "TZA",
+   "emmision": 11972.755,
+   "geoId": "TZ"
+ },
+ {
+   "name": "United States",
+   "code": "USA",
+   "emmision": 5006302.077,
+   "geoId": "US"
+ },
+ {
+   "name": "United States Virgin Islands",
+   "code": "VIR",
+   "emmision": 0,
+   "geoId": "VI"
+ },
+ {
+   "name": "Uruguay",
+   "code": "URY",
+   "emmision": 6765.615,
+   "geoId": "UY"
+ },
+ {
+   "name": "Uzbekistan",
+   "code": "UZB",
+   "emmision": 91810.679,
+   "geoId": "UZ"
+ },
+ {
+   "name": "Venezuela",
+   "code": "VEN",
+   "emmision": 164175.257,
+   "geoId": "VE"
+ },
+ {
+   "name": "Viet Nam",
+   "code": "VNM",
+   "emmision": 192667.847,
+   "geoId": "VN"
+ },
+ {
+   "name": "Yemen",
+   "code": "YEM",
+   "emmision": 10608.631,
+   "geoId": "YE"
+ },
+ {
+   "name": "Zambia",
+   "code": "ZMB",
+   "emmision": 5141.134,
+   "geoId": "ZM"
+ },
+ {
+   "name": "Zimbabwe",
+   "code": "ZWE",
+   "emmision": 10982.665,
+   "geoId": "ZW"
+ }
+]
+}
