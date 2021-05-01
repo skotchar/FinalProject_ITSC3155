@@ -8,7 +8,36 @@
     <title>Emissions Planner Visualize</title>
     <script src="visualize_and_tutorial_JS.js" type="text/javascript"></script>
 </head>
-    <body onload="setupSelectorsOptions()">
+    <body>
+        <script>
+		  function loadData() {
+				const csv_data = fetch("./datasets/worldMapData (2).json")
+				.then(response => {
+				return response.json();
+				})
+				.then(data => saveData(data));
+
+				function saveData(data) {
+					const selects = document.querySelectorAll('select');
+					for (const select of selects) {
+						setupSelectorsOptions(select, data)
+					}
+				}
+
+				console.log(data1);
+				function setupSelectorsOptions(element,data) {
+					for (var x = 0; x < data.values.length; x++ ) {
+						single_entry = data.values[x].name;
+						console.log(single_entry);
+						newElement = document.createElement("option");
+						newElement.value = single_entry;
+						newElement.text = single_entry;
+						element.add(newElement);
+					}
+				}
+			}
+			loadData();
+	  </script>
         <script>
             /*
                 TODO insert all code or graphs change button links to the draw map functions
@@ -34,17 +63,17 @@
                 </div>
             </div>
             <div id='visualize_right'>
-                <button id="make_a_plan_button" onclick="makeAPlan()">Make a Plan</button>
-                <button id="top_20_button" onclick="top20()">Emissions for Top 20 Countries</button>
-                <button id="emissions_over_time_button" onclick="emissionOverTime()">Emissions Over Time for Selected Country</button>
-                <select id="country_select_1" onload="setupSelectorsOptions()" onclick="selectACountry(this)">
+                <button id="make_a_plan_button" onclick="makeAPlan();">Make a Plan</button>
+                <button id="top_20_button" onclick="top20();">Emissions for Top 20 Countries</button>
+                <button id="emissions_over_time_button" onclick="emissionOverTime();">Emissions Over Time for Selected Country</button>
+                <select id="country_select_1" name="Selector1" onclick="selectACountry(this);">
                     <option value="">Select a Country</option>
                 </select>
-                <button id="compare_2_countries_button">Emissions for Top 20 Countries</button>
-                <select id="country_select_2a" onload="setupSelectorsOptions()" onclick="selectACountry(this)">
+                <button id="compare_2_countries_button" onclick="compare2countries();">Emissions for Top 20 Countries</button>
+                <select id="country_select_2a" name="Selector2a" onclick="selectACountry(this);">
                     <option value="">Select a Country #1</option>
                 </select>
-                <select id="country_select_2b" onload="setupSelectorsOptions()" onclick="selectACountry(this)">
+                <select id="country_select_2b" name="Selector2b" onload="" onclick="selectACountry(this)">
                     <option value="">Select a Country #2</option>
                 </select>
             </div>

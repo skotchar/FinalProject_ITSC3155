@@ -1,27 +1,31 @@
-const csv_data = fetch("./datasets/worldMapData (2).json")
-.then(response => {
-   return response.json();
-})
-.then(data => console.log(data));
+function loadData() {
+    const csv_data = fetch("./datasets/worldMapData (2).json")
+    .then(response => {
+    return response.json();
+    })
+    .then(data => saveData(data));
 
-function setupSelectorsOptions(element) {
-    console.log(csv_data)
-    for (x = 0; x < csv_data.values.length; x++ ) {
-        single_entry = csv_data.values[x].name;
-        console.log(single_entry)
-        newElement = document.createElement("option")
-        newElement.value = single_entry
-        newElement.innerHTML = single_entry
-        element.appendChild(newElement)
+    function saveData(data) {
+        const selects = document.querySelectorAll('select');
+        for (const select of selects) {
+            setupSelectorsOptions(select, data)
+        }
     }
-    /*
-        TODO do code to read csv and add countries to dropdown list
-        first scan page for <select> tag
-        second read csv
-        third add options to list
-    */
+
+    console.log(data1);
+    function setupSelectorsOptions(element,data) {
+        for (var x = 0; x < data.values.length; x++ ) {
+            single_entry = data.values[x].name;
+            console.log(single_entry);
+            newElement = document.createElement("option");
+            newElement.value = single_entry;
+            newElement.text = single_entry;
+            element.add(newElement);
+        }
+    }
 }
 
-function selectACountry(id) {
-    return id.value
+function selectACountry(element) {
+    var value = element.value
+
 }
