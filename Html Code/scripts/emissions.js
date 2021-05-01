@@ -32,7 +32,12 @@ function selectACountryHome(element) {
     // TODO set maps on visualization page to graph emissions for value
 }
 
-function afunc() {
+function makeAPlan() {
+    var percent = prompt("Enter a percentage between 0 and 100");
+    afunc(percent);
+}
+
+function afunc(value=1) {
     // set the dimensions and margins of the graph
 var margin = {top: 10, right: 100, bottom: 30, left: 30},
     width = 460 - margin.left - margin.right,
@@ -112,7 +117,6 @@ d3.csv("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Ht
           )
           .attr("stroke", function(d){ return myColor(selectedGroup) })
     }
-    })
 })
 
 }
