@@ -108,7 +108,10 @@ body {
 #visualize_bottom_left p{
    margin: 8px;
 }
-
+#visualisation {
+    width: 706px;
+    height: 740px;
+}
 #visual_graph_back {
     margin: 6px;
     width: 99%;
@@ -131,6 +134,21 @@ body {
     float: left;
     height: 850px;
     z-index: 0;
+}
+
+#getting_started {
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 8px;
+    background-color: #ff8000;
+    font-size: 32px;
+    font-family: "Inter-Bold", "Inter", sans-serif;
+    color: white;
+    top: 9%;
+    width: 94%;
+    position: relative;
+    height: 111px;
+    border: none;
 }
 
 #visualize_right button {

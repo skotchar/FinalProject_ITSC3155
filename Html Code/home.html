@@ -18,35 +18,6 @@
 		</style>
 	</head>
 	<body>
-		<script>
-		  function loadData() {
-				const csv_data = fetch("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Html%20Code/datasets/worldMapData (2).json")
-				.then(response => {
-				return response.json();
-				})
-				.then(data => saveData(data));
-
-				function saveData(data) {
-					const selects = document.querySelectorAll('select');
-					for (const select of selects) {
-						setupSelectorsOptions(select, data)
-					}
-				}
-
-				//console.log(data1);
-				function setupSelectorsOptions(element,data) {
-					for (var x = 0; x < data.values.length; x++ ) {
-						single_entry = data.values[x].name;
-						//console.log(single_entry);
-						newElement = document.createElement("option");
-						newElement.value = single_entry;
-						newElement.text = single_entry;
-						element.add(newElement);
-					}
-				}
-			}
-			loadData();
-	  </script>
 		<div id='banner'>
 			<img src='images/Emissions Planner Logo.png'>
 			<h1 id="banner_text">Home</h1>
@@ -63,10 +34,7 @@
 			    </p>
 			  </div>
 			  <div id="select_country">
-				  <h1 id="selector">Select a Country</h1>
-				  <select id="country_select_0" name="Selector0" onchange="selectACountryHome(this);">
-                    <option value="">Select a Country</option>
-                  </select>
+				  <button id="getting_started" onclick="location.href='visualize_and_tutorial.html'">Let's Get Started</button>
 			  </div>
 			  <div id="right_column" style="background-color:#44ccff;">
 			      <h1 id= "map_title">Choropleth</h1>

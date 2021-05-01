@@ -29,12 +29,13 @@ function selectACountryHome(element) {
     var value = element.value;
     location.href='visualize_and_tutorial.html';
     //locations(value);
-    // TODO set maps on visualization page to graph emissions for value
+    var imHidden = document.getElementById('hidden_data');
+    imHidden.value = value;
 }
 
 function makeAPlan() {
     var percent = prompt("Enter a percentage between 0 and 100");
-    afunc(percent);
+    makeAPlanChart(percent, document.getElementById('hidden_data').text);
 }
 
 function afunc(value=1) {
@@ -121,40 +122,128 @@ d3.csv("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Ht
 
 }
 /*
-function locations(country) {
-    anychart.data.loadJsonFile("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Html%20Code/datasets/NewWorldMapData.json", function (data) {
-            var Data = data.values;
-            var y = [];
+function makeAPlanChart(value, country) {
 
-            for (var i = 0; i < Data.length; i++) {
-                if ("Country Name" == country) {
-                    y.push(parseInt(Data[i].2005));
-                    y.push(parseInt(Data[i].2006));
-                    y.push(parseInt(Data[i].2007));
-                    y.push(parseInt(Data[i].2008));
-                    y.push(parseInt(Data[i].2009));
-                    y.push(parseInt(Data[i].2010));
-                    y.push(parseInt(Data[i].2011));
-                    y.push(parseInt(Data[i].2012));
-                    y.push(parseInt(Data[i].2013));
-                    y.push(parseInt(Data[i].2014));
-                    y.push(parseInt(Data[i].2015));
-                    y.push(parseInt(Data[i].2016));
+    var data1 = d3.json("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Html%20Code/datasets/LineChartData.csv", function(data, country) {
+        var ys = [];
+        var year;
+        var co2kt;
+        var data_bunch;
+        for (const item of data) {
+               if ("Country Name" == country) {
+                    year = 2005;
+                    co2kt = parseInt(item.2005, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2006;
+                    co2kt = parseInt(item.2006,64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2007;
+                    co2kt = parseInt(item.2007, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2008;
+                    co2kt = parseInt(item.2008, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2009;
+                    co2kt = parseInt(item.2009, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2010;
+                    co2kt = parseInt(item.2010, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2011;
+                    co2kt = parseInt(item.2011, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2012;
+                    co2kt = parseInt(item.2012, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2013;
+                    co2kt = parseInt(item.2013, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2014;
+                    co2kt = parseInt(item.2014, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2015;
+                    co2kt = parseInt(item.2015, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    year = 2016;
+                    co2kt = parseInt(item.2016, 64);
+                    data_bunch = {"year":year , "emission" :co2kt};
+                    ys.push(data_bunch);
+                    break;
                 }
         }
+        return ys
+    });
 
-        var trace1 = {
-            x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
-            y = y,
-            type: 'scatter'
-        };
-
-        var data = [trace1];
-
-        Plotly.newPlot('visual_graph_back', data);
+    var discount_data1 = data1
+    var multiplier = (percent/100.0)
+    for (var i = 0; i < discount_data1.length; i ++) {
+        discount_data1[i].emission -= (parseInt(discount_data1[i].emission, 64)*multiplier)
     }
+
+    var vis = d3.select("#visualisation");
+    WIDTH = 500;
+    HEIGHT = 500;
+    MARGINS = {
+        top: 20,
+        right: 20,
+        bottom: 20,
+        left: 50
+    }
+
+    xScale = d3.scale.linear().range([MARGINS.left, WIDTH - MARGINS.right]).domain([2005,2016]);
+    yScale = d3.scale.linear().range([HEIGHT - MARGINS.top, MARGINS.bottom]).domain([0,50000000]);
+
+    xAxis = d3.svg.axis()
+    .scale(xScale);
+
+    yAxis = d3.svg.axis()
+    .scale(yScale);
+
+    vis.append("svg:g")
+    .call(xAxis);
+
+    vis.append("svg:g")
+    .attr("transform", "translate(0," + (HEIGHT - MARGINS.bottom) + ")")
+    .call(xAxis);
+
+    vis.append("svg:g")
+    .call(yAxis);
+
+    yAxis = d3.svg.axis()
+    .scale(yScale)
+    .orient("left");
+
+    vis.append("svg:g")
+    .attr("transform", "translate(" + (MARGINS.left) + ",0)")
+    .call(yAxis);
+
+    var lineGen = d3.svg.line()
+      .x(function(d) {
+        return xScale(d.year);
+      })
+      .y(function(d) {
+        return yScale(d.sale);
+      });
+
+      vis.append('svg:path')
+          .attr('d', lineGen(data))
+          .attr('stroke', 'red')
+          .attr('stroke-width', 2)
+          .attr('fill', 'none');
 }
 */
+
 function selectACountry(element) {
     // TODO uses this function to change graph second option
 }
