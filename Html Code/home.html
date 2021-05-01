@@ -33,11 +33,11 @@
 					}
 				}
 
-				console.log(data1);
+				//console.log(data1);
 				function setupSelectorsOptions(element,data) {
 					for (var x = 0; x < data.values.length; x++ ) {
 						single_entry = data.values[x].name;
-						console.log(single_entry);
+						//console.log(single_entry);
 						newElement = document.createElement("option");
 						newElement.value = single_entry;
 						newElement.text = single_entry;
@@ -64,7 +64,7 @@
 			  </div>
 			  <div id="select_country">
 				  <h1 id="selector">Select a Country</h1>
-				  <select id="country_select_0" name="Selector0" onchange="selectACountry(this);">
+				  <select id="country_select_0" name="Selector0" onchange="selectACountryHome(this);">
                     <option value="">Select a Country</option>
                   </select>
 			  </div>

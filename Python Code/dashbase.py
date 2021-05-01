@@ -13,7 +13,7 @@ emissions_css = ['css/emission_planner.css']
 logo = ['/localhost/images/Emissions Planner Logo.jpg', '/localhost/images/HelpButton.jpg']
 # TODO Figure out why image is not showing up, it might be a bug with dash?
 # TODO create choropleth map as fig
-df = pd.read_csv('../Html Code/datasets/API_EN.ATM.CO2E.KT_DS2_en_csv_v2_2163797.csv')
+df = pd.read_csv('../Html Code/datasets/Data.csv')
 
 fig = go.Figure(data=go.Choropleth(
     locations = df['Country Name'],

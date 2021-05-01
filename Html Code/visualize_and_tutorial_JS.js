@@ -1,6 +1,6 @@
 // JavaScript source code
 function location(country) {
-    anychart.data.loadJsonFile("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Html%20Code/datasets/NewWorldMapData.json", function (data) {
+    anychart.data.loadJsonFile("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Html%20Code/datasets/Data.csv", function (data) {
             var Data = data.values;
             var y = [];
 

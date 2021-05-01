@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src='/scripts/emissions.js'></script>
+    <script src='scripts/emissions.js'></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link rel="stylesheet" href="css/Emissions.css">
     <title>Emissions Planner Visualize</title>
@@ -24,11 +24,11 @@
 					}
 				}
 
-				console.log(data1);
+				//console.log(data1);
 				function setupSelectorsOptions(element,data) {
 					for (var x = 0; x < data.values.length; x++ ) {
 						single_entry = data.values[x].name;
-						console.log(single_entry);
+						//console.log(single_entry);
 						newElement = document.createElement("option");
 						newElement.value = single_entry;
 						newElement.text = single_entry;
@@ -54,9 +54,7 @@
         <div id="visualize_body">
             <div id='visualize_top_left'>
                 <div id="visual_graph_back">
-                    <div id='visual_graph'>
 
-                    </div>
                 </div>
                 <div id='visualize_bottom_left'>
                     <p>insert figure description here</p>
