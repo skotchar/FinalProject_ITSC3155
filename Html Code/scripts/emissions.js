@@ -25,7 +25,12 @@ function loadData() {
     }
 }
 
-function selectACountry(element) {
-    var value = element.value
+function selectACountryHome(element) {
+    var value = element.value;
+    location.href='visualize_and_tutorial.html';
+    // TODO set maps on visualization page to graph emissions for value
+}
 
+function selectACountry(element) {
+    // TODO uses this function to change graph second option
 }
