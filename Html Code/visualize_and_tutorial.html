@@ -10,31 +10,6 @@
 </head>
     <body>
         <script>
-            function loadData() {
-              var data = ["Canada", "United States", "Russia", "China", "Australia", "Greenland", "Brazil", "Mexico", "Argentina", "Nigeria"];
-              saveData(data);
-
-              function saveData(data) {
-                  const selects = document.querySelectorAll('select');
-                  for (const select of selects) {
-                      setupSelectorsOptions(select,data)
-                  }
-              }
-
-              function setupSelectorsOptions(element,data) {
-                  for (var x = 0; x < data.length; x++) {
-                      single_entry = data[x];
-                      console.log(single_entry);
-                      newElement = document.createElement("option");
-                      newElement.value = single_entry;
-                      newElement.text = single_entry;
-                      element.add(newElement);
-                  }
-              }
-		    }
-			loadData();
-	  </script>
-        <script>
             /*
                 TODO insert all code or graphs change button links to the draw map functions
             */
@@ -74,6 +49,28 @@
                 </select>
             </div>
         </div>
+        <script>
+              var data = ["Canada", "United States", "Russia", "China", "Australia", "Greenland", "Brazil", "Mexico", "Argentina", "Nigeria"];
+              saveData(data);
+              function saveData(data) {
+                  const selects = document.querySelectorAll('select');
+                  console.log(selects);
+                  for (const select of selects) {
+                      setupSelectorsOptions(select,data);
+                  }
+              };
+              function setupSelectorsOptions(element,data) {
+                  for (var x = 0; x < data.length; x++) {
+                      single_entry = data[x];
+                      console.log(single_entry);
+                      newElement = document.createElement("option");
+                      newElement.value = single_entry;
+                      newElement.text = single_entry;
+                      element.add(newElement);
+                  }
+              };
+
+	  </script>
         <!--
             help button should generate this \/\/\/\/\/\/
 
