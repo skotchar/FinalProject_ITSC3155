@@ -10,32 +10,28 @@
 </head>
     <body>
         <script>
-		  function loadData() {
-				const csv_data = fetch("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Html%20Code/datasets/worldMapData (2).json")
-				.then(response => {
-				return response.json();
-				})
-				.then(data => saveData(data));
+            function loadData() {
+              var data = ["Canada", "United States", "Russia", "China", "Australia", "Greenland", "Brazil", "Mexico", "Argentina", "Nigeria"];
+              saveData(data);
 
-				function saveData(data) {
-					const selects = document.querySelectorAll('select');
-					for (const select of selects) {
-						setupSelectorsOptions(select, data)
-					}
-				}
+              function saveData(data) {
+                  const selects = document.querySelectorAll('select');
+                  for (const select of selects) {
+                      setupSelectorsOptions(select,data)
+                  }
+              }
 
-				//console.log(data1);
-				function setupSelectorsOptions(element,data) {
-					for (var x = 0; x < data.values.length; x++ ) {
-						single_entry = data.values[x].name;
-						//console.log(single_entry);
-						newElement = document.createElement("option");
-						newElement.value = single_entry;
-						newElement.text = single_entry;
-						element.add(newElement);
-					}
-				}
-			}
+              function setupSelectorsOptions(element,data) {
+                  for (var x = 0; x < data.length; x++) {
+                      single_entry = data[x];
+                      console.log(single_entry);
+                      newElement = document.createElement("option");
+                      newElement.value = single_entry;
+                      newElement.text = single_entry;
+                      element.add(newElement);
+                  }
+              }
+		    }
 			loadData();
 	  </script>
         <script>
@@ -64,7 +60,7 @@
             </div>
             <div id='visualize_right'>
                 <button id="make_a_plan_button" onclick="makeAPlan();">Make a Plan</button>
-                <button id="top_20_button" onclick="top20();">Emissions for Top 20 Countries</button>
+                <button id="top_10_button" onclick="top10();">Emissions for Top 10 Countries</button>
                 <button id="emissions_over_time_button" onclick="emissionOverTime();">Emissions Over Time for Selected Country</button>
                 <select id="country_select_1" name="Selector1" onclick="selectACountry(this);">
                     <option value="">Select a Country</option>

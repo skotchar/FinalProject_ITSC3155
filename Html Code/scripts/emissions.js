@@ -1,9 +1,6 @@
 function loadData() {
-    const csv_data = fetch("./datasets/worldMapData (2).json")
-    .then(response => {
-    return response.json();
-    })
-    .then(data => saveData(data));
+    var data = ["Canada", "United States", "Russia", "China", "Australia", "Greenland", "Brazil", "Mexico", "Argentina", "Nigeria"];
+    saveData(data);
 
     function saveData(data) {
         const selects = document.querySelectorAll('select');
@@ -12,10 +9,9 @@ function loadData() {
         }
     }
 
-    console.log(data1);
-    function setupSelectorsOptions(element,data) {
-        for (var x = 0; x < data.values.length; x++ ) {
-            single_entry = data.values[x].name;
+    function setupSelectorsOptions(element, data) {
+        for (var x = 0; x < data.length; x++) {
+            single_entry = data[x];
             console.log(single_entry);
             newElement = document.createElement("option");
             newElement.value = single_entry;
@@ -24,7 +20,6 @@ function loadData() {
         }
     }
 }
-
 function makeAPlan() {
     var percent = prompt("Enter a percentage between 0 and 100");
     /*
@@ -116,6 +111,8 @@ d3.csv("https://raw.githubusercontent.com/skotchar/FinalProject_ITSC3155/main/Ht
 })
 
 }
+
+
 /*
 function makeAPlanChart(value, country) {
 
@@ -239,6 +236,93 @@ function makeAPlanChart(value, country) {
 }
 */
 
-function selectACountry(element) {
-    // TODO uses this function to change graph second option
+function selectACountry(element) { }
+
+function top10() {
+    var Canada = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [561425.034, 571993.328, 571846.648, 561791.734, 532191.71, 527263.262, 522774.854, 517721.728, 519188.528, 540614.809, 549430.277,
+            544894.198],
+        type: 'scatter'
+    };
+
+    var United_States = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [5789727.291, 5697285.888, 5789030.561, 5614110.994,
+            5263505.457, 5395532.125, 5270047.385, 5081999.958,
+            5170359.99, 5225412.661, 5126913.374, 5006302.077],
+        type: 'scatter'
+    };
+
+    var Russia = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [1615089.813, 1669262.404, 1666886.188, 1714978.893,
+            1574045.082, 1670531.186, 763405.295, 1807244.28,
+            1739426.782, 1736984.56, 1698213.369, 1732026.776],
+        type: 'scatter'
+    };
+
+    var China = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [5896957.705, 6529291.518, 6697654.489, 7553070.247,
+            7557789.676, 8776040.416, 9733538.12, 10028573.94,
+            10258007.13, 10291926.88, 10145004.86, 9893037.952],
+        type: 'scatter'
+    };
+
+    var Australia = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [350172.831, 365346.877, 372090.49, 385904.079,
+            394792.887, 390861.863, 391818.95, 388126.281,
+            372317.844, 361316.844, 365332.209, 375907.837],
+        type: 'scatter'
+    };
+
+    var Greenland = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [608.722, 627.057, 638.058, 660.06,
+            575.719, 663.727, 707.731, 568.385,
+            553.717, 506.046, 509.713, 509.713],
+        type: 'scatter'
+    };
+
+    var Brazil = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [347308.9, 347668.3, 363212.7, 387631.2,
+            367147.4, 419754.2, 439412.9, 470028.7,
+            503677.1, 533530.2, 504388.5, 462298.7],
+        type: 'scatter'
+    };
+
+    var Mexico = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [466361.7, 479251.2, 480520, 493251.8,
+            475950.9, 464308.2, 484429, 496324.8,
+            490340.2, 481499.1, 482947.6, 486405.5],
+        type: 'scatter'
+    };
+
+    var Argentina = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [162110.7, 175436.6, 175176.3, 189107.2,
+            179961.7, 187904.4, 191622.8, 193027.2,
+            193701.9, 195777.5, 201168, 201347.6],
+        type: 'scatter'
+    };
+
+    var Nigeria = {
+        x: [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+        y: [106119.3, 98238.93, 94868.96, 95987.39,
+            76079.25, 114150, 131685.6, 119008.8,
+            124329.6, 130130.8, 115928.5, 120369.3],
+        type: 'scatter'
+    };
+
+    var Empty = {
+        x: [],
+        y: [],
+        type: 'scatter'
+    };
+
+    var data = [Canada, United_States,Russia, China, Australia, Greenland, Brazil, Mexico, Argentina, Nigeria, Empty];
 }
