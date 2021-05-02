@@ -25,17 +25,12 @@ function loadData() {
     }
 }
 
-function selectACountryHome(element) {
-    var value = element.value;
-    location.href='visualize_and_tutorial.html';
-    //locations(value);
-    var imHidden = document.getElementById('hidden_data');
-    imHidden.value = value;
-}
-
 function makeAPlan() {
     var percent = prompt("Enter a percentage between 0 and 100");
-    makeAPlanChart(percent, document.getElementById('hidden_data').text);
+    /*
+        this will call to added a second line to the already generated graph if it has to line edit the second line
+    */
+    makeAPlanChart(percent, dataset, country);
 }
 
 function afunc(value=1) {
